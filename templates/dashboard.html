@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Monitoring Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h4 class="text-white text-center mb-3">Employee Monitor</h4>
+        <ul class="nav flex-column mb-3">
+            <li class="nav-item"><a class="nav-link active" href="{{ url_for('dashboard') }}">Dashboard</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('employees_page') }}">Employees</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('dashboard') }}#reports">Reports</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Settings</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('logout') }}">Logout</a></li>
+        </ul>
+        <div class="text-white small px-3">Apps Used Today</div>
+        <div class="px-2 mt-2" style="max-height: 40vh; overflow-y: auto;">
+            {% if company_apps and company_apps|length > 0 %}
+                {# ensure unique by key in template as a safety net #}
+                {% set seen = {} %}
+                {% for app in company_apps[:200] %}
+                {% if not seen.get(app.key or app.app|lower) %}
+                {% set _ = seen.__setitem__(app.key or app.app|lower, 1) %}
+                {% set mins = (app.minutes or 0)|int %}
+                {% set hrs = (mins // 60)|int %}
+                {% set rem = (mins % 60)|int %}
+                {% set name = app.app %}
+                {% set n = name.lower() %}
+                {% set icon = '🖥️' %}
+                {% if 'brave' in n %}{% set icon = '🦁' %}
+                {% elif 'firefox' in n %}{% set icon = '🦊' %}
+                {% elif 'opera' in n %}{% set icon = '⭕' %}
+                {% elif 'chrome' in n %}{% set icon = '🌐' %}
+                {% elif 'edge' in n %}{% set icon = '🧭' %}
+                {% elif 'visual studio code' in n or n == 'vscode' or 'code' in n %}{% set icon = '🧩' %}
+                {% elif 'word' in n %}{% set icon = '📘' %}
+                {% elif 'excel' in n %}{% set icon = '📗' %}
+                {% elif 'powerpoint' in n %}{% set icon = '📕' %}
+                {% elif 'outlook' in n %}{% set icon = '✉️' %}
+                {% elif 'teams' in n or 'slack' in n %}{% set icon = '💬' %}
+                {% elif 'explorer' in n %}{% set icon = '📁' %}
+                {% elif 'notepad' in n %}{% set icon = '📝' %}
+                {% elif 'discord' in n %}{% set icon = '🎮' %}
+                {% elif 'zoom' in n %}{% set icon = '🎥' %}
+                {% elif 'telegram' in n %}{% set icon = '📨' %}
+                {% endif %}
+                <div class="d-flex align-items-center text-white-50 mb-1" title="{{ name }}">
+                    <span class="me-2">{{ icon }}</span>
+                    <div class="flex-grow-1 text-truncate">{{ name }}</div>
+                    <div class="ms-2 text-nowrap"><code class="text-white">{{ hrs }}h {{ rem }}m</code></div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            {% else %}
+                <div class="text-white-50 small">No app usage yet today.</div>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Welcome -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2>Welcome, {{ admin_name }}!</h2>
+            <span class="badge bg-primary">Online</span>
+        </div>
+
+        <!-- Summary Cards -->
+        <div class="row mb-4">
+            <div class="col-md-3 mb-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5>🟢 Active Employees</h5>
+                        <h2 class="text-success">{{ stats.active_employees }}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5>🔴 Idle Employees</h5>
+                        <h2 class="text-danger">{{ stats.idle_employees }}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5>⚙️ Total Employees</h5>
+                        <h2 class="text-primary">{{ stats.total_employees }}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5>📸 Screenshots Today</h5>
+                        <h2 class="text-warning">{{ stats.screenshot_count }}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Row -->
+        <div class="row mb-4">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-header">Activity Over Last 7 Days</div>
+                    <div class="card-body">
+                        <canvas id="activityChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-header">Today's Active vs Idle</div>
+                    <div class="card-body">
+                        <canvas id="ratioChart"></canvas>
+                        <div class="text-center mt-2">
+                            <span class="badge bg-success me-2">Active: {{ '%.0f'|format((company.total_active_today_min or 0) // 60) }}h {{ '%.0f'|format((company.total_active_today_min or 0) % 60) }}m</span>
+                            <span class="badge bg-danger">Idle: {{ '%.0f'|format((company.total_idle_today_min or 0) // 60) }}h {{ '%.0f'|format((company.total_idle_today_min or 0) % 60) }}m</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <span>Movement Split Today</span>
+                        <button class="btn btn-sm btn-outline-secondary" type="button" data-bs-toggle="modal" data-bs-target="#mediaModal">View Media</button>
+                    </div>
+                    <div class="card-body">
+                        {% if movement.activity_split %}
+                        <canvas id="movementPie"></canvas>
+                        {% else %}
+                        <p class="text-muted text-center">No movement data available for today.</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- System Status & Settings -->
+        <div class="row mb-4">
+            <div class="col-md-6 mb-3">
+                <div class="card">
+                    <div class="card-header">CPU Usage</div>
+                    <div class="card-body">
+                        <div class="progress" style="height: 20px;">
+                            <div class="progress-bar bg-danger" {% if cpu_percent is defined %}style="width: {{ cpu_percent }}%"{% endif %}>{{ cpu_percent }}%</div>
+                        </div>
+                        <small class="text-muted">{% if cpu_percent > 80 %}High{% else %}Normal{% endif %}</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <span>Memory Usage</span>
+                        <button class="btn btn-sm btn-outline-secondary" type="button" data-bs-toggle="modal" data-bs-target="#settingsModal">Settings</button>
+                    </div>
+                    <div class="card-body">
+                        <div class="progress" style="height: 20px;">
+                            <div class="progress-bar bg-warning" {% if mem_percent is defined %}style="width: {{ mem_percent }}%"{% endif %}>{{ mem_percent }}%</div>
+                        </div>
+                        <small class="text-muted">{% if mem_percent > 80 %}High{% else %}Normal{% endif %}</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Employees Table -->
+        <a id="employees"></a>
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <span>Employees</span>
+                        <div>
+                            <span class="badge bg-success me-2">Top 3 Active</span>
+                            <span class="badge bg-danger">Bottom 3 Idle</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Employee ID</th>
+                                        <th>Name</th>
+                                        <th>Status</th>
+                                        <th>Last Activity</th>
+                                        <th>Active Today</th>
+                                        <th>Idle Today</th>
+                                        <th>Current App</th>
+                                        <th>Last Screenshot</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for emp in employee_summaries %}
+                                    <tr data-bs-toggle="collapse" data-bs-target="#emp{{ loop.index }}" style="cursor:pointer;" data-emp-id="{{ emp.employee_id }}">
+                                        <td>{{ emp.employee_id }}</td>
+                                        <td>{{ emp.name or '-' }}</td>
+                                        <td>
+                                            {% if emp.status == 'active' %}
+                                            <span class="me-1">🟢</span>Active
+                                            {% else %}
+                                            <span class="me-1">🔴</span>Idle
+                                            {% endif %}
+                                        </td>
+                                        <td>{{ emp.last_activity or '-' }}</td>
+                                        <td>{{ '%.0f'|format(emp.active_time_today_min // 60) }}h {{ '%.0f'|format(emp.active_time_today_min % 60) }}m</td>
+                                        <td>{{ '%.0f'|format(emp.idle_time_today_min // 60) }}h {{ '%.0f'|format(emp.idle_time_today_min % 60) }}m</td>
+                                        <td>{{ emp.current_app or '-' }}</td>
+                                        <td>{{ emp.last_screenshot_time or '-' }}</td>
+                                        <td>
+                                            <a class="btn btn-sm btn-outline-primary me-2" href="{{ url_for('employee_detail', employee_id=emp.employee_id) }}" onclick="event.stopPropagation();">View</a>
+                                            <a class="btn btn-sm btn-success" href="{{ url_for('api_employee_export', employee_id=emp.employee_id) }}" onclick="event.stopPropagation();">Download CSV</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="collapse" id="emp{{ loop.index }}">
+                                        <td colspan="8">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="mb-2"><strong>Active vs Idle (Today)</strong></div>
+                                                    <div class="progress" style="height: 16px;">
+                                                        {% set total = (emp.active_time_today_min + emp.idle_time_today_min) or 1 %}
+                                                        {% set active_pct = (emp.active_time_today_min / total * 100) %}
+                                                        {% set idle_pct = 100 - active_pct %}
+                                                        <div class="progress-bar bg-success" data-width="{{ '%.1f'|format(active_pct) }}"></div>
+                                                        <div class="progress-bar bg-danger" data-width="{{ '%.1f'|format(idle_pct) }}"></div>
+                                                    </div>
+                                                    <small class="text-muted">Active: {{ '%.0f'|format(emp.active_time_today_min // 60) }}h {{ '%.0f'|format(emp.active_time_today_min % 60) }}m | Idle: {{ '%.0f'|format(emp.idle_time_today_min // 60) }}h {{ '%.0f'|format(emp.idle_time_today_min % 60) }}m</small>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="mb-2"><strong>Week Summary</strong></div>
+                                                    <div>Active: {{ '%.0f'|format(emp.active_time_week_min // 60) }}h {{ '%.0f'|format(emp.active_time_week_min % 60) }}m</div>
+                                                    <div>Idle: {{ '%.0f'|format(emp.idle_time_week_min // 60) }}h {{ '%.0f'|format(emp.idle_time_week_min % 60) }}m</div>
+                                                </div>
+                                                <div class="col-12 mt-3">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <strong>Today's Activity Timeline</strong>
+                                                        <div>
+                                                            <button class="btn btn-sm btn-outline-primary me-2" type="button" onclick="downloadTimeline('{{ emp.employee_id }}')">Download CSV</button>
+                                                            <button class="btn btn-sm btn-outline-danger me-2" type="button" onclick="clearTimeline('{{ emp.employee_id }}','timeline{{ loop.index }}')">Clear</button>
+                                                            <button class="btn btn-sm btn-outline-secondary" type="button" onclick="loadTimeline('{{ emp.employee_id }}', 'timeline{{ loop.index }}')">Refresh</button>
+                                                        </div>
+                                                    </div>
+                                                    <div id="timeline{{ loop.index }}" class="mt-2 small text-monospace">
+                                                        {% set evs = employee_events.get(emp.employee_id, []) %}
+                                                        {% if evs and evs|length > 0 %}
+                                                            {% for ev in evs %}
+                                                            <div><code>{{ ev.timestamp }}</code> — <strong>{{ ev.event_type }}</strong> {{ (ev.active_window or ev.process_name)[:80] if ev.active_window or ev.process_name else '' }}</div>
+                                                            {% endfor %}
+                                                        {% else %}
+                                                            <span class="text-muted">No events today.</span>
+                                                        {% endif %}
+                                                    </div>
+                                                    <div class="mt-3">
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <strong>Apps Used Today</strong>
+                                                            <button class="btn btn-sm btn-outline-secondary" type="button" onclick="loadApps('{{ emp.employee_id }}', 'apps{{ loop.index }}')">Refresh</button>
+                                                        </div>
+                                                        <div id="apps{{ loop.index }}" class="mt-2"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Notifications -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">Notifications & Alerts <span class="notification-badge">{{ stats.notifications|length }}</span></div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            {% for notif in stats.notifications %}
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                {{ notif }}
+                                <span class="badge bg-warning">Alert</span>
+                            </li>
+                            {% endfor %}
+                            {% if not stats.notifications %}
+                            <li class="list-group-item">No alerts.</li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Top Performers & Reports -->
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <div class="card">
+                    <div class="card-header">Top Performers (Today)</div>
+                    <div class="card-body">
+                        {% set sorted_by_active = employee_summaries|sort(attribute='active_time_today_min', reverse=True) %}
+                        <div class="row">
+                            <div class="col-6">
+                                <h6>Top 3 Most Active</h6>
+                                <ol class="mb-0">
+                                    {% for emp in sorted_by_active[:3] %}
+                                    <li>{{ emp.name or emp.employee_id }} — {{ '%.0f'|format(emp.active_time_today_min // 60) }}h {{ '%.0f'|format(emp.active_time_today_min % 60) }}m</li>
+                                    {% endfor %}
+                                </ol>
+                            </div>
+                            <div class="col-6">
+                                <h6>Bottom 3 Least Active</h6>
+                                {% set bottom = (sorted_by_active|reverse)|list %}
+                                <ol class="mb-0">
+                                    {% for emp in bottom[:3] %}
+                                    <li>{{ emp.name or emp.employee_id }} — {{ '%.0f'|format(emp.active_time_today_min // 60) }}h {{ '%.0f'|format(emp.active_time_today_min % 60) }}m</li>
+                                    {% endfor %}
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="card">
+                    <div class="card-header">Recent Reports</div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            {% for report in reports[:3] %}
+                            <li class="list-group-item d-flex justify-content-between">
+                                {{ report }}
+                                <a href="{{ url_for('view_report', filename=report) }}" class="btn btn-sm btn-primary">View</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Media Modal -->
+    <div class="modal fade" id="mediaModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Today's Screenshots & Idle Photos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row" id="mediaGrid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div class="modal fade" id="settingsModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Global Settings</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label">Screenshot Interval</label>
+                        <div class="btn-group w-100" role="group" aria-label="Preset intervals">
+                            <button class="btn btn-outline-primary" data-ss="120">2m</button>
+                            <button class="btn btn-outline-primary" data-ss="300">5m</button>
+                            <button class="btn btn-outline-primary" data-ss="600">10m</button>
+                            <button class="btn btn-outline-primary" data-ss="1800">30m</button>
+                            <button class="btn btn-outline-primary" data-ss="3600">1h</button>
+                        </div>
+                        <small class="text-muted">Applies to all employees. Randomized by jitter.</small>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Random Jitter (+/- seconds)</label>
+                        <input type="number" min="0" max="3600" class="form-control" id="jitterInput" placeholder="e.g. 60" />
+                        <small class="text-muted">Jitter spreads screenshots randomly around the interval.</small>
+                    </div>
+                    <div id="settingsStatus" class="small"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const activityData = JSON.parse('{{ activity|tojson|safe }}');
+        const ratioData = JSON.parse('{{ ratio|tojson|safe }}');
+        const activitySplit = JSON.parse('{{ movement.activity_split|tojson|safe }}');
+
+        const activityCtx = document.getElementById('activityChart').getContext('2d');
+        new Chart(activityCtx, {
+            type: 'line',
+            data: {
+                labels: activityData.labels,
+                datasets: [{
+                    label: 'Active Counts',
+                    data: activityData.data,
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    tension: 0.1
+                }]
+            },
+            options: { responsive: true, scales: { y: { beginAtZero: true } } }
+        });
+
+        const ratioCtx = document.getElementById('ratioChart').getContext('2d');
+        new Chart(ratioCtx, {
+            type: 'pie',
+            data: {
+                labels: ['Active', 'Idle'],
+                datasets: [{
+                    data: ratioData,
+                    backgroundColor: ['#28a745', '#dc3545']
+                }]
+            },
+            options: { responsive: true }
+        });
+
+        const moveCtx = document.getElementById('movementPie').getContext('2d');
+        if (Object.keys(activitySplit).length > 0) {
+            new Chart(moveCtx, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(activitySplit),
+                    datasets: [{
+                        data: Object.values(activitySplit),
+                        backgroundColor: ['#28a745', '#ffc107', '#dc3545']
+                    }]
+                },
+                options: { responsive: true }
+            });
+        }
+
+        // Load media for the first employee (or let user pick later)
+        const summaries = JSON.parse('{{ employee_summaries|tojson|safe }}');
+        const firstEmp = summaries.length ? summaries[0].employee_id : null;
+        const mediaGrid = document.getElementById('mediaGrid');
+        const mediaModal = document.getElementById('mediaModal');
+        mediaModal.addEventListener('show.bs.modal', async () => {
+            mediaGrid.innerHTML = firstEmp ? 'Loading…' : 'No employees available';
+            if (!firstEmp) return;
+            try {
+                const res = await fetch(`/api/employee/${firstEmp}/media.json`);
+                const items = await res.json();
+                if (!Array.isArray(items) || items.length === 0) {
+                    mediaGrid.innerHTML = '<p class="text-center text-muted">No media for today.</p>';
+                    return;
+                }
+                mediaGrid.innerHTML = items.map(it => `
+                    <div class="col-md-3 mb-3">
+                        <div class="card h-100">
+                            <img src="${it.url}" class="card-img-top" style="object-fit:cover;height:180px;"/>
+                            <div class="card-body">
+                                <div class="small text-muted">${it.type === 'screenshot' ? '📸 Screenshot' : '📷 Idle Photo'}</div>
+                                <div class="small">${it.timestamp || ''}</div>
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+            } catch (e) {
+                mediaGrid.innerHTML = '<p class="text-danger">Failed to load media.</p>';
+            }
+        });
+
+        // Load timeline of events per employee (today)
+        async function loadTimeline(employeeId, containerId) {
+            const el = document.getElementById(containerId);
+            if (!el) return;
+            el.innerHTML = 'Loading…';
+            try {
+                // Try QS endpoint first, then path endpoint
+                let events = [];
+                let res = await fetch(`/api/employee/events.json?employee_id=${encodeURIComponent(employeeId)}`);
+                if (!res.ok) {
+                    res = await fetch(`/api/employee/${encodeURIComponent(employeeId)}/events.json`);
+                }
+                if (res.ok) {
+                    events = await res.json();
+                } else {
+                    const txt = await res.text();
+                    console.error('Timeline HTTP error', res.status, txt);
+                    el.innerHTML = `<span class=\"text-danger\">HTTP ${res.status}</span>`;
+                    return;
+                }
+                if (!Array.isArray(events) || events.length === 0) {
+                    el.innerHTML = '<span class="text-muted">No events today.</span>';
+                    return;
+                }
+                el.innerHTML = events.map(ev => {
+                    const ts = ev.timestamp || '';
+                    const type = (ev.event_type || '').padEnd(18, ' ');
+                    const win = (ev.active_window || ev.process_name || '').slice(0, 80);
+                    return `<div><code>${ts}</code> — <strong>${type}</strong> ${win}</div>`;
+                }).join('');
+            } catch (e) {
+                console.error('Timeline error', e);
+                el.innerHTML = '<span class="text-danger">Failed to load timeline.</span>';
+            }
+        }
+
+        function downloadTimeline(employeeId) {
+            const d = new Date().toISOString().slice(0,10);
+            window.location.href = `/api/employee/${encodeURIComponent(employeeId)}/timeline.csv?date=${encodeURIComponent(d)}`;
+        }
+
+        async function clearTimeline(employeeId, containerId) {
+            const el = document.getElementById(containerId);
+            if (el) el.innerHTML = 'Clearing…';
+            const d = new Date().toISOString().slice(0,10);
+            try {
+                const res = await fetch(`/api/employee/${encodeURIComponent(employeeId)}/timeline/clear`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ date: d })
+                });
+                if (res.ok) {
+                    if (el) el.innerHTML = '<span class="text-muted">Timeline cleared.</span>';
+                } else {
+                    if (el) el.innerHTML = '<span class="text-danger">Failed to clear timeline.</span>';
+                }
+            } catch (e) {
+                if (el) el.innerHTML = '<span class="text-danger">Failed to clear timeline.</span>';
+            }
+        }
+
+        // Auto-load timeline when a row expands
+        document.querySelectorAll('tr[data-bs-target^="#emp"]').forEach((row) => {
+            const target = row.getAttribute('data-bs-target');
+            const empId = row.getAttribute('data-emp-id');
+            const containerId = `timeline${target.replace('#emp','')}`;
+            const appsId = `apps${target.replace('#emp','')}`;
+            row.addEventListener('click', () => {
+                if (empId) {
+                    setTimeout(() => loadTimeline(empId, containerId), 200);
+                    setTimeout(() => loadApps(empId, appsId), 250);
+                }
+            });
+        });
+
+        async function loadApps(employeeId, containerId) {
+            const el = document.getElementById(containerId);
+            if (!el) return;
+            el.innerHTML = 'Loading…';
+            try {
+                const res = await fetch(`/api/employee/${encodeURIComponent(employeeId)}/apps.json`);
+                if (!res.ok) {
+                    el.innerHTML = '<span class="text-danger">Failed to load apps.</span>';
+                    return;
+                }
+                const apps = await res.json();
+                if (!Array.isArray(apps) || apps.length === 0) {
+                    el.innerHTML = '<span class="text-muted">No app usage yet today.</span>';
+                    return;
+                }
+                // client-side dedupe by normalized key if provided
+                const seen = new Set();
+                const unique = [];
+                for (const a of apps) {
+                    const key = (a.key || (a.app || '').toLowerCase());
+                    if (seen.has(key)) continue;
+                    seen.add(key);
+                    unique.push(a);
+                }
+                const rows = unique.slice(0, 30).map((a) => {
+                    const name = (a.app || 'Unknown');
+                    const mins = Math.round(a.minutes || 0);
+                    const hrs = Math.floor(mins / 60);
+                    const rem = mins % 60;
+                    const n = name.toLowerCase();
+                    const icon = n.includes('brave') ? '🦁'
+                                 : n.includes('firefox') ? '🦊'
+                                 : n.includes('opera') ? '⭕'
+                                 : n.includes('chrome') ? '🌐'
+                                 : n.includes('edge') ? '🧭'
+                                 : (n.includes('visual studio code') || n === 'vscode' || n.includes('code')) ? '🧩'
+                                 : n.includes('word') ? '📘'
+                                 : n.includes('excel') ? '📗'
+                                 : n.includes('powerpoint') ? '📕'
+                                 : n.includes('outlook') ? '✉️'
+                                 : n.includes('teams') ? '💬'
+                                 : n.includes('slack') ? '💬'
+                                 : n.includes('explorer') ? '📁'
+                                 : n.includes('notepad') ? '📝'
+                                 : n.includes('discord') ? '🎮'
+                                 : n.includes('zoom') ? '🎥'
+                                 : n.includes('telegram') ? '📨'
+                                 : '🖥️';
+                    return `<div class="d-flex align-items-center mb-1">
+                        <span class="me-2" style="font-size:1.1rem;">${icon}</span>
+                        <div class="flex-grow-1 text-truncate" title="${name}">${name}</div>
+                        <div class="ms-2 text-nowrap"><code>${hrs}h ${rem}m</code></div>
+                    </div>`;
+                }).join('');
+                el.innerHTML = rows;
+            } catch (e) {
+                el.innerHTML = '<span class="text-danger">Failed to load apps.</span>';
+            }
+        }
+
+        // Settings logic
+        const settingsModal = document.getElementById('settingsModal');
+        const jitterInput = document.getElementById('jitterInput');
+        const settingsStatus = document.getElementById('settingsStatus');
+        settingsModal.addEventListener('show.bs.modal', async () => {
+            settingsStatus.textContent = 'Loading…';
+            try {
+                const res = await fetch('/api/admin/runtime-settings');
+                const data = await res.json();
+                const s = (data && data.settings) || {};
+                jitterInput.value = (s.screenshot_jitter_seconds ?? 60);
+                // highlight current interval
+                const interval = s.screenshot_interval_seconds ?? 600;
+                document.querySelectorAll('#settingsModal [data-ss]').forEach(btn => {
+                    btn.classList.toggle('btn-primary', parseInt(btn.dataset.ss, 10) === interval);
+                    btn.classList.toggle('btn-outline-primary', parseInt(btn.dataset.ss, 10) !== interval);
+                });
+                settingsStatus.textContent = '';
+            } catch (e) {
+                settingsStatus.textContent = 'Failed to load settings';
+                settingsStatus.className = 'small text-danger';
+            }
+        });
+        document.querySelectorAll('#settingsModal [data-ss]').forEach(btn => {
+            btn.addEventListener('click', async (ev) => {
+                const seconds = parseInt(ev.currentTarget.dataset.ss, 10);
+                const jitter = parseInt(jitterInput.value || '0', 10) || 0;
+                settingsStatus.textContent = 'Saving…';
+                settingsStatus.className = 'small';
+                try {
+                    const res = await fetch('/api/admin/runtime-settings', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ screenshot_interval_seconds: seconds, screenshot_jitter_seconds: jitter })
+                    });
+                    if (res.ok) {
+                        settingsStatus.textContent = 'Saved';
+                        settingsStatus.className = 'small text-success';
+                        document.querySelectorAll('#settingsModal [data-ss]').forEach(b => {
+                            b.classList.toggle('btn-primary', b === ev.currentTarget);
+                            b.classList.toggle('btn-outline-primary', b !== ev.currentTarget);
+                        });
+                    } else {
+                        settingsStatus.textContent = 'Failed to save';
+                        settingsStatus.className = 'small text-danger';
+                    }
+                } catch (e) {
+                    settingsStatus.textContent = 'Failed to save';
+                    settingsStatus.className = 'small text-danger';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

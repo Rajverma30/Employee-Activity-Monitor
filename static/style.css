@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+.sidebar {
+    height: 100vh;
+    background-color: #343a40;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    padding-top: 20px;
+}
+.sidebar .nav-link {
+    color: #adb5bd;
+    padding: 10px 20px;
+    border-radius: 0;
+}
+.sidebar .nav-link:hover, .sidebar .nav-link.active {
+    color: #fff;
+    background-color: #495057;
+}
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+.card {
+    border: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #dee2e6;
+    font-weight: bold;
+}
+.status-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+.status-up { background-color: #28a745; }
+.status-down { background-color: #dc3545; }
+.status-warning { background-color: #ffc107; }
+.notification-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .sidebar { width: 100%; height: auto; position: relative; }
+    .main-content { margin-left: 0; }
+}

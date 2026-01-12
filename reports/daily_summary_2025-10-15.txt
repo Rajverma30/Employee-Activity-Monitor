@@ -1,0 +1,15 @@
+Daily Summary Report - 2025-10-15
+========================
+
+Active Time: 292.97 minutes
+Idle Time: 1.58 minutes
+Total Screenshots: 228
+Idle Webcam Photos: 1
+Keys Pressed: 228
+Mouse Distance: 332351.83 px
+Clicks: 285
+
+Top 3 Applications:
+- app.py - koko - Visual Studio Code: 88.91 minutes
+- employee_monitor.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved: 36.99 minutes
+- employee_monitor.py - koko - Visual Studio Code: 36.12 minutes

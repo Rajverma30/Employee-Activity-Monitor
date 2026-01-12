@@ -1,0 +1,1383 @@
+2025-10-15 12:30:13,718 - database - INFO - Database initialized successfully.
+2025-10-15 12:30:13,734 - activity_detector - INFO - Activity listeners started.
+2025-10-15 12:30:13,734 - screenshot_handler - INFO - Screenshot handler started.
+2025-10-15 12:30:13,735 - presence_detector - INFO - Presence detector started.
+2025-10-15 12:30:13,735 - __main__ - INFO - Employee Monitor started.
+2025-10-15 12:30:13,736 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-15 12:30:13,736 - screenshot_handler - ERROR - Screenshot capture error: '_thread._local' object has no attribute 'srcdc'
+2025-10-15 12:30:46,136 - __main__ - INFO - Window changed: monitor.log - koko - Visual Studio Code
+2025-10-15 12:30:46,136 - screenshot_handler - ERROR - Screenshot capture error: '_thread._local' object has no attribute 'srcdc'
+2025-10-15 12:31:16,150 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-15 12:31:16,150 - screenshot_handler - ERROR - Screenshot capture error: '_thread._local' object has no attribute 'srcdc'
+2025-10-15 12:31:46,164 - __main__ - INFO - Window changed: monitor.log - koko - Visual Studio Code
+2025-10-15 12:31:46,164 - screenshot_handler - ERROR - Screenshot capture error: '_thread._local' object has no attribute 'srcdc'
+2025-10-15 12:32:16,175 - screenshot_handler - ERROR - Screenshot capture error: '_thread._local' object has no attribute 'srcdc'
+2025-10-15 12:32:46,185 - __main__ - INFO - Window changed: Employee Monitoring System in Python - Grok - Brave
+2025-10-15 12:32:46,185 - screenshot_handler - ERROR - Screenshot capture error: '_thread._local' object has no attribute 'srcdc'
+2025-10-15 12:33:16,202 - screenshot_handler - ERROR - Screenshot capture error: '_thread._local' object has no attribute 'srcdc'
+2025-10-15 12:33:46,217 - screenshot_handler - ERROR - Screenshot capture error: '_thread._local' object has no attribute 'srcdc'
+2025-10-15 12:33:55,171 - __main__ - INFO - Shutdown signal received.
+2025-10-15 12:33:55,171 - activity_detector - INFO - Activity detection stopped.
+2025-10-15 12:33:55,171 - screenshot_handler - INFO - Screenshot handler stopped.
+2025-10-15 12:33:55,171 - presence_detector - INFO - Presence detector stopped.
+2025-10-15 12:34:08,425 - database - INFO - Database initialized successfully.
+2025-10-15 12:34:08,436 - activity_detector - INFO - Activity listeners started.
+2025-10-15 12:34:08,436 - screenshot_handler - INFO - Screenshot handler started.
+2025-10-15 12:34:08,436 - presence_detector - INFO - Presence detector started.
+2025-10-15 12:34:08,437 - __main__ - INFO - Employee Monitor started.
+2025-10-15 12:34:08,437 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-15 12:34:08,985 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_123408.png
+2025-10-15 12:34:40,650 - __main__ - INFO - Window changed: (216) This AI PROJECT Got My Student 50 LPA Job | Free End to End Production AI Project. - YouTube - Brave
+2025-10-15 12:34:40,932 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_123440.png
+2025-10-15 12:35:10,948 - __main__ - INFO - Window changed: screenshot_20251015_123408.png - koko - Visual Studio Code
+2025-10-15 12:35:11,054 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_123510.png
+2025-10-15 12:35:41,061 - __main__ - INFO - Window changed: presence_detector.py - koko - Visual Studio Code
+2025-10-15 12:35:41,162 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_123541.png
+2025-10-15 12:36:11,265 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_123611.png
+2025-10-15 12:36:41,401 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_123641.png
+2025-10-15 12:37:11,515 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_123711.png
+2025-10-15 12:37:41,642 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_123741.png
+2025-10-15 12:38:11,754 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_123811.png
+2025-10-15 13:01:43,696 - database - INFO - Database initialized successfully.
+2025-10-15 13:01:43,709 - activity_detector - INFO - Activity listeners started.
+2025-10-15 13:01:43,709 - screenshot_handler - INFO - Screenshot handler started.
+2025-10-15 13:01:43,709 - presence_detector - INFO - Presence detector started.
+2025-10-15 13:01:43,711 - __main__ - INFO - Employee Monitor started.
+2025-10-15 13:01:43,711 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-15 13:01:43,813 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_130143.png
+2025-10-15 13:02:12,727 - __main__ - INFO - Shutdown signal received.
+2025-10-15 13:02:12,727 - activity_detector - INFO - Activity detection stopped.
+2025-10-15 13:02:12,727 - screenshot_handler - INFO - Screenshot handler stopped.
+2025-10-15 13:02:12,727 - presence_detector - INFO - Presence detector stopped.
+2025-10-15 13:02:15,452 - reporter - INFO - Report generated: ./reports\daily_summary_2025-10-15.txt
+2025-10-15 13:02:15,452 - __main__ - INFO - Employee Monitor stopped.
+2025-10-15 13:05:12,922 - database - INFO - Database initialized successfully.
+2025-10-15 13:05:12,922 - activity_detector - INFO - Activity listeners started.
+2025-10-15 13:05:12,934 - screenshot_handler - INFO - Screenshot handler started.
+2025-10-15 13:05:12,935 - presence_detector - INFO - Presence detector started.
+2025-10-15 13:05:12,935 - __main__ - INFO - Employee Monitor started.
+2025-10-15 13:05:12,935 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-15 13:05:13,034 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_130512.png
+2025-10-15 13:05:44,675 - __main__ - INFO - Window changed: Unknown Window
+2025-10-15 13:05:44,820 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_130544.png
+2025-10-15 13:06:14,847 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-15 13:06:15,063 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_130614.png
+2025-10-15 13:06:45,089 - __main__ - INFO - Window changed: Unknown Window
+2025-10-15 13:06:45,208 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_130645.png
+2025-10-15 13:07:15,228 - __main__ - INFO - Window changed: (216) This AI PROJECT Got My Student 50 LPA Job | Free End to End Production AI Project. - YouTube - Brave
+2025-10-15 13:07:15,509 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_130715.png
+2025-10-15 13:07:45,815 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_130745.png
+2025-10-15 13:08:15,827 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-15 13:08:16,054 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_130815.png
+2025-10-15 13:08:46,273 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_130846.png
+2025-10-15 13:09:16,478 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_130916.png
+2025-10-15 13:09:46,678 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_130946.png
+2025-10-15 13:10:16,893 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_131016.png
+2025-10-15 13:10:47,104 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_131046.png
+2025-10-15 13:11:17,327 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_131117.png
+2025-10-15 13:11:47,537 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_131147.png
+2025-10-15 13:12:17,753 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_131217.png
+2025-10-15 13:12:47,986 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_131247.png
+2025-10-15 13:13:18,189 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_131318.png
+2025-10-15 13:13:48,402 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_131348.png
+2025-10-15 13:14:18,611 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_131418.png
+2025-10-15 13:14:35,625 - __main__ - INFO - Shutdown signal received.
+2025-10-15 13:14:35,625 - activity_detector - INFO - Activity detection stopped.
+2025-10-15 13:14:35,625 - screenshot_handler - INFO - Screenshot handler stopped.
+2025-10-15 13:14:35,625 - presence_detector - INFO - Presence detector stopped.
+2025-10-15 13:14:40,632 - __main__ - INFO - Shutdown signal received.
+2025-10-15 13:14:40,632 - activity_detector - INFO - Activity detection stopped.
+2025-10-15 13:14:40,632 - screenshot_handler - INFO - Screenshot handler stopped.
+2025-10-15 13:14:40,632 - presence_detector - INFO - Presence detector stopped.
+2025-10-15 13:14:45,638 - reporter - INFO - Report generated: ./reports\daily_summary_2025-10-15.txt
+2025-10-15 13:14:45,638 - __main__ - INFO - Employee Monitor stopped.
+2025-10-15 14:39:41,039 - database - INFO - Database initialized successfully.
+2025-10-15 14:39:41,048 - activity_detector - INFO - Activity listeners started.
+2025-10-15 14:39:41,048 - screenshot_handler - INFO - Screenshot handler started.
+2025-10-15 14:39:41,048 - presence_detector - INFO - Presence detector started.
+2025-10-15 14:39:41,055 - __main__ - INFO - Employee Monitor started.
+2025-10-15 14:39:41,055 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-15 14:39:41,678 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_143941.png
+2025-10-15 14:40:14,316 - __main__ - INFO - Window changed: screenshot_20251015_130745.png - koko - Visual Studio Code
+2025-10-15 14:40:14,486 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144014.png
+2025-10-15 14:40:44,656 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144044.png
+2025-10-15 14:41:14,808 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144114.png
+2025-10-15 14:41:44,988 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144144.png
+2025-10-15 14:42:15,162 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144214.png
+2025-10-15 14:42:45,311 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144245.png
+2025-10-15 14:43:15,451 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144315.png
+2025-10-15 14:43:45,663 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144345.png
+2025-10-15 14:44:15,825 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144415.png
+2025-10-15 14:44:46,009 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144445.png
+2025-10-15 14:45:18,716 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144516.png
+2025-10-15 14:46:48,907 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144648.png
+2025-10-15 14:47:18,928 - __main__ - INFO - Window changed: Nahimic
+2025-10-15 14:47:19,205 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144718.png
+2025-10-15 14:47:19,435 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144719.png
+2025-10-15 14:47:49,387 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144749.png
+2025-10-15 14:48:19,563 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144819.png
+2025-10-15 14:48:51,607 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144849.png
+2025-10-15 14:49:21,762 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144921.png
+2025-10-15 14:49:51,917 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_144951.png
+2025-10-15 14:50:21,940 - __main__ - INFO - Window changed: Home - File Explorer
+2025-10-15 14:50:22,167 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145021.png
+2025-10-15 14:50:52,180 - __main__ - INFO - Window changed: Employee monitoring libraries - Brave
+2025-10-15 14:50:52,517 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145052.png
+2025-10-15 14:51:22,707 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145122.png
+2025-10-15 14:51:52,727 - __main__ - INFO - Window changed: Shubham Parmar (DM) - Geega Technologies - Slack - Brave
+2025-10-15 14:51:53,167 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145152.png
+2025-10-15 14:52:23,198 - __main__ - INFO - Window changed: Employee Monitoring System in Python - Grok - Brave
+2025-10-15 14:52:23,531 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145223.png
+2025-10-15 14:52:53,836 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145253.png
+2025-10-15 14:53:20,769 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145320.png
+2025-10-15 14:53:24,186 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145323.png
+2025-10-15 14:53:54,526 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145354.png
+2025-10-15 14:54:24,553 - __main__ - INFO - Window changed: Employee monitoring libraries - Brave
+2025-10-15 14:54:24,866 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145424.png
+2025-10-15 14:54:54,890 - __main__ - INFO - Window changed: Employee Monitoring System in Python - Grok - Brave
+2025-10-15 14:54:55,208 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145454.png
+2025-10-15 14:55:25,536 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145525.png
+2025-10-15 14:55:55,866 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145555.png
+2025-10-15 14:56:25,910 - __main__ - INFO - Window changed: (216) Thodi Der -Full Video | Half Girlfriend | Arjun Kapoor & Shraddha Kapoor | Farhan S & Shreya Ghoshal - YouTube - Brave
+2025-10-15 14:56:26,316 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145625.png
+2025-10-15 14:56:56,345 - __main__ - INFO - Window changed: Employee Monitoring System in Python - Grok - Brave
+2025-10-15 14:56:56,635 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145656.png
+2025-10-15 14:57:26,977 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145726.png
+2025-10-15 14:57:57,016 - __main__ - INFO - Window changed: Employee monitoring libraries - Brave
+2025-10-15 14:57:57,355 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145757.png
+2025-10-15 14:58:25,083 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145824.png
+2025-10-15 14:58:27,642 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145827.png
+2025-10-15 14:58:57,976 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145857.png
+2025-10-15 14:59:28,305 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145928.png
+2025-10-15 14:59:58,626 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_145958.png
+2025-10-15 15:00:28,984 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150028.png
+2025-10-15 15:00:59,307 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150059.png
+2025-10-15 15:01:29,673 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150129.png
+2025-10-15 15:02:00,041 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150159.png
+2025-10-15 15:02:30,342 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150230.png
+2025-10-15 15:03:30,674 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150330.png
+2025-10-15 15:03:37,400 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150337.png
+2025-10-15 15:04:01,010 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150400.png
+2025-10-15 15:04:31,319 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150431.png
+2025-10-15 15:05:01,668 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150501.png
+2025-10-15 15:05:32,017 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150531.png
+2025-10-15 15:06:02,354 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150602.png
+2025-10-15 15:06:32,625 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150632.png
+2025-10-15 15:07:02,934 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150702.png
+2025-10-15 15:07:33,256 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150732.png
+2025-10-15 15:08:03,583 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150803.png
+2025-10-15 15:08:33,900 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150833.png
+2025-10-15 15:09:04,254 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150903.png
+2025-10-15 15:09:34,612 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_150934.png
+2025-10-15 15:10:04,974 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_151004.png
+2025-10-15 15:10:35,306 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_151035.png
+2025-10-15 15:11:05,636 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_151105.png
+2025-10-15 15:11:35,942 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_151135.png
+2025-10-15 15:12:05,979 - __main__ - INFO - Window changed: Employee Monitoring System in Python - Grok - Brave
+2025-10-15 15:12:06,325 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_151205.png
+2025-10-15 15:12:09,756 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_151209.png
+2025-10-15 15:17:57,023 - database - INFO - Database initialized successfully.
+2025-10-15 15:17:57,035 - activity_detector - INFO - Activity listeners started.
+2025-10-15 15:17:57,035 - screenshot_handler - INFO - Screenshot handler started.
+2025-10-15 15:17:57,035 - presence_detector - INFO - Presence detector started.
+2025-10-15 15:17:57,035 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-15 15:17:57,035 - __main__ - INFO - Employee Monitor started.
+2025-10-15 15:17:57,665 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_151757.png
+2025-10-15 15:18:30,163 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_151830.png
+2025-10-15 15:19:00,320 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_151900.png
+2025-10-15 15:19:30,488 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_151930.png
+2025-10-15 15:20:00,507 - __main__ - INFO - Window changed: daily_summary_2025-10-15.txt - koko - Visual Studio Code
+2025-10-15 15:20:00,655 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_152000.png
+2025-10-15 15:20:30,679 - __main__ - INFO - Window changed: screenshot_20251015_152000.png - koko - Visual Studio Code
+2025-10-15 15:20:30,835 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_152030.png
+2025-10-15 15:21:00,845 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-15 15:21:00,967 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_152100.png
+2025-10-15 15:21:31,154 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_152130.png
+2025-10-15 15:22:01,323 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_152201.png
+2025-10-15 15:22:31,342 - __main__ - INFO - Window changed: Search
+2025-10-15 15:22:31,784 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_152231.png
+2025-10-15 15:23:01,821 - __main__ - INFO - Window changed: Settings
+2025-10-15 15:23:02,244 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_152301.png
+2025-10-15 15:23:32,279 - __main__ - INFO - Window changed: Unknown Window
+2025-10-15 15:23:32,633 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_152332.png
+2025-10-15 15:24:02,655 - __main__ - INFO - Window changed: Settings
+2025-10-15 15:24:02,994 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_152402.png
+2025-10-15 15:24:33,026 - __main__ - INFO - Window changed: Device Manager
+2025-10-15 15:24:33,375 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_152433.png
+2025-10-15 15:25:03,395 - __main__ - INFO - Window changed: Integrated Camera Properties
+2025-10-15 15:25:03,814 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_152503.png
+2025-10-15 15:25:22,284 - __main__ - INFO - Shutdown signal received.
+2025-10-15 15:25:22,284 - activity_detector - INFO - Activity detection stopped.
+2025-10-15 15:25:22,284 - screenshot_handler - INFO - Screenshot handler stopped.
+2025-10-15 15:25:22,284 - presence_detector - INFO - Presence detector stopped.
+2025-10-15 15:25:27,300 - __main__ - INFO - Shutdown signal received.
+2025-10-15 15:25:27,301 - activity_detector - INFO - Activity detection stopped.
+2025-10-15 15:25:27,301 - screenshot_handler - INFO - Screenshot handler stopped.
+2025-10-15 15:25:27,301 - presence_detector - INFO - Presence detector stopped.
+2025-10-15 15:27:15,563 - database - INFO - Database initialized successfully.
+2025-10-15 15:27:15,585 - activity_detector - INFO - Activity listeners started.
+2025-10-15 15:27:15,585 - screenshot_handler - INFO - Screenshot handler started.
+2025-10-15 15:27:15,585 - presence_detector - INFO - Presence detector started.
+2025-10-15 15:27:15,590 - __main__ - INFO - Employee Monitor started.
+2025-10-15 15:27:15,590 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-15 15:27:15,720 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_152715.png
+2025-10-15 15:27:27,774 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_152727.png
+2025-10-15 15:27:37,934 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_152737.png
+2025-10-15 15:27:48,089 - screenshot_handler - INFO - Screenshot saved: ./screenshots\screenshot_20251015_152747.png
+2025-10-15 15:27:49,738 - __main__ - INFO - Shutdown signal received.
+2025-10-15 15:27:49,738 - activity_detector - INFO - Activity detection stopped.
+2025-10-15 15:27:49,738 - screenshot_handler - INFO - Screenshot handler stopped.
+2025-10-15 15:27:49,738 - presence_detector - INFO - Presence detector stopped.
+2025-10-15 15:27:54,768 - reporter - INFO - Report generated: ./reports\daily_summary_2025-10-15.txt
+2025-10-15 15:27:54,768 - __main__ - INFO - Employee Monitor stopped.
+2025-10-15 16:01:20,399 - database - INFO - Movement DB initialized.
+2025-10-15 16:01:20,400 - database - INFO - Database initialized successfully.
+2025-10-15 16:01:20,409 - activity_detector - INFO - Movement listeners started.
+2025-10-15 16:01:20,410 - activity_detector - INFO - Activity & movement detector started.
+2025-10-15 16:01:20,410 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-15 16:01:20,411 - presence_detector - INFO - Presence detector started.
+2025-10-15 16:01:20,412 - __main__ - INFO - Employee Monitor started.
+2025-10-15 16:01:20,412 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-15 16:01:20,516 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_160120.png
+2025-10-15 16:01:22,203 - database - ERROR - Log entry error: table logs has no column named webcam_photo_path
+2025-10-15 16:01:52,205 - __main__ - INFO - Window changed: Employee Monitoring System in Python - Grok - Brave
+2025-10-15 16:01:52,438 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_160152.png
+2025-10-15 16:01:53,918 - database - ERROR - Log entry error: table logs has no column named webcam_photo_path
+2025-10-15 16:02:25,409 - database - ERROR - Log entry error: table logs has no column named webcam_photo_path
+2025-10-15 16:02:55,427 - __main__ - INFO - Window changed: database.py - koko - Visual Studio Code
+2025-10-15 16:02:55,549 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_160255.png
+2025-10-15 16:02:56,943 - database - ERROR - Log entry error: table logs has no column named webcam_photo_path
+2025-10-15 16:03:19,970 - database - INFO - Added webcam_photo_path column to logs table.
+2025-10-15 16:03:19,970 - database - INFO - Movement DB initialized.
+2025-10-15 16:03:19,970 - database - INFO - Database initialized successfully.
+2025-10-15 16:03:19,970 - activity_detector - INFO - Movement listeners started.
+2025-10-15 16:03:19,970 - activity_detector - INFO - Activity & movement detector started.
+2025-10-15 16:03:19,970 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-15 16:03:19,970 - presence_detector - INFO - Presence detector started.
+2025-10-15 16:03:19,970 - __main__ - INFO - Employee Monitor started.
+2025-10-15 16:03:19,970 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-15 16:03:20,082 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_160319.png
+2025-10-15 16:03:51,756 - __main__ - INFO - Window changed: screenshot_20251015_160319.png - koko - Visual Studio Code
+2025-10-15 16:03:51,869 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_160351.png
+2025-10-15 16:04:23,326 - __main__ - INFO - Window changed: Employee Monitoring System in Python - Grok - Brave
+2025-10-15 16:04:23,541 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_160423.png
+2025-10-15 16:04:55,025 - __main__ - INFO - Window changed: Shubham Parmar (DM) - Geega Technologies - Slack - Brave
+2025-10-15 16:04:55,290 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_160455.png
+2025-10-15 16:05:26,792 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-15 16:05:26,903 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_160526.png
+2025-10-15 16:05:49,740 - database - INFO - Movement DB initialized.
+2025-10-15 16:05:49,740 - database - INFO - Database initialized successfully.
+2025-10-15 16:05:49,740 - activity_detector - INFO - Movement listeners started.
+2025-10-15 16:05:49,740 - activity_detector - INFO - Activity & movement detector started.
+2025-10-15 16:05:49,740 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-15 16:05:49,740 - presence_detector - INFO - Presence detector started.
+2025-10-15 16:05:49,740 - __main__ - INFO - Employee Monitor started.
+2025-10-15 16:05:49,740 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-15 16:05:49,847 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_160549.png
+2025-10-15 16:07:25,958 - __main__ - INFO - Shutdown signal received.
+2025-10-15 16:07:53,889 - database - INFO - Movement DB initialized.
+2025-10-15 16:07:53,889 - database - INFO - Database initialized successfully.
+2025-10-15 16:07:53,911 - activity_detector - INFO - Movement listeners started.
+2025-10-15 16:07:53,911 - activity_detector - INFO - Activity & movement detector started.
+2025-10-15 16:07:53,911 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-15 16:07:53,911 - presence_detector - INFO - Presence detector started.
+2025-10-15 16:07:53,911 - __main__ - INFO - Employee Monitor started.
+2025-10-15 16:07:53,911 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-15 16:07:54,028 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_160753.png
+2025-10-15 16:08:57,107 - __main__ - INFO - Window changed: jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'movement_split' // Werkzeug Debugger - Brave
+2025-10-15 16:08:57,327 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_160857.png
+2025-10-15 16:09:28,854 - __main__ - INFO - Window changed: Employee Monitoring System in Python - Grok - Brave
+2025-10-15 16:09:29,080 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_160928.png
+2025-10-15 16:11:03,334 - __main__ - INFO - Window changed: ● database.py - koko - Visual Studio Code
+2025-10-15 16:11:03,438 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_161103.png
+2025-10-15 16:12:06,248 - __main__ - INFO - Window changed: Employee Monitoring System in Python - Grok - Brave
+2025-10-15 16:12:06,501 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_161206.png
+2025-10-15 16:13:09,414 - __main__ - INFO - Window changed: ● dashboard.html - koko - Visual Studio Code
+2025-10-15 16:13:09,523 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_161309.png
+2025-10-15 16:30:43,275 - database - INFO - Movement DB initialized successfully.
+2025-10-15 16:30:43,275 - database - INFO - Database initialized successfully.
+2025-10-15 16:30:43,282 - activity_detector - INFO - Movement listeners started.
+2025-10-15 16:30:43,283 - activity_detector - INFO - Activity & movement detector started.
+2025-10-15 16:30:43,283 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-15 16:30:43,284 - presence_detector - INFO - Presence detector started.
+2025-10-15 16:30:43,284 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-15 16:30:43,284 - __main__ - INFO - Employee Monitor started.
+2025-10-15 16:30:43,398 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_163043.png
+2025-10-15 16:31:15,062 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-15 16:31:15,322 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_163115.png
+2025-10-15 16:48:08,227 - database - INFO - Movement DB initialized successfully.
+2025-10-15 16:48:08,234 - database - INFO - Database initialized successfully.
+2025-10-15 16:48:08,238 - activity_detector - INFO - Movement listeners started.
+2025-10-15 16:48:08,238 - activity_detector - INFO - Activity & movement detector started.
+2025-10-15 16:48:08,238 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-15 16:48:08,248 - presence_detector - INFO - Presence detector started.
+2025-10-15 16:48:08,248 - __main__ - INFO - Employee Monitor started.
+2025-10-15 16:48:08,249 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-15 16:48:08,532 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_164808.png
+2025-10-15 16:48:40,835 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-15 16:48:41,054 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_164840.png
+2025-10-15 16:56:32,309 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251015_165632.jpg
+2025-10-15 16:56:33,041 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-15 16:56:33,041 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave | 0 keys, 0 clicks, 0px moved
+2025-10-15 16:56:33,210 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_165633.png
+2025-10-15 16:57:04,555 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-15 16:57:04,728 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_165704.png
+2025-10-15 16:58:07,583 - __main__ - INFO - Window changed: idle_photo_20251015_165632.jpg - koko - Visual Studio Code
+2025-10-15 16:58:07,730 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_165807.png
+2025-10-15 16:59:42,024 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-15 16:59:42,217 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_165942.png
+2025-10-15 17:00:13,719 - __main__ - INFO - Window changed: idle_photo_20251015_165632.jpg - koko - Visual Studio Code
+2025-10-15 17:00:13,860 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_170013.png
+2025-10-15 17:00:45,254 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-15 17:00:45,366 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_170045.png
+2025-10-15 17:01:16,754 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-15 17:01:16,861 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_170116.png
+2025-10-15 17:01:48,255 - __main__ - INFO - Window changed: database.py - koko - Visual Studio Code
+2025-10-15 17:01:48,413 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_170148.png
+2025-10-15 17:04:57,467 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-15 17:04:57,768 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_170457.png
+2025-10-15 17:06:32,546 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-15 17:06:32,684 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_170632.png
+2025-10-15 17:08:55,202 - database - INFO - Movement DB initialized successfully.
+2025-10-15 17:08:55,202 - database - INFO - Database initialized successfully.
+2025-10-15 17:08:55,208 - activity_detector - INFO - Movement listeners started.
+2025-10-15 17:08:55,208 - activity_detector - INFO - Activity & movement detector started.
+2025-10-15 17:08:55,208 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-15 17:08:55,221 - presence_detector - INFO - Presence detector started.
+2025-10-15 17:08:55,221 - __main__ - INFO - Employee Monitor started.
+2025-10-15 17:08:55,221 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-15 17:08:55,636 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_170855.png
+2025-10-15 17:13:39,700 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-15 17:13:39,852 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_171339.png
+2025-10-15 17:14:11,345 - __main__ - INFO - Window changed: idle_photo_handler.py - koko - Visual Studio Code
+2025-10-15 17:14:11,472 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_171411.png
+2025-10-15 17:15:14,526 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-15 17:15:14,687 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_171514.png
+2025-10-15 17:16:17,817 - __main__ - INFO - Window changed: screenshot_20251015_171514.png - koko - Visual Studio Code
+2025-10-15 17:16:17,962 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_171617.png
+2025-10-15 17:16:49,476 - __main__ - INFO - Window changed: screenshot_20251015_171617.png - koko - Visual Studio Code
+2025-10-15 17:16:49,649 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_171649.png
+2025-10-15 17:17:52,860 - __main__ - INFO - Window changed: screenshot_20251015_171649.png - koko - Visual Studio Code
+2025-10-15 17:17:53,007 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_171752.png
+2025-10-15 17:18:24,645 - __main__ - INFO - Window changed: screenshots - File Explorer
+2025-10-15 17:18:25,012 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_171824.png
+2025-10-15 17:18:56,755 - __main__ - INFO - Window changed: vivo V20 2021 - File Explorer
+2025-10-15 17:18:57,075 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_171856.png
+2025-10-15 17:20:00,482 - __main__ - INFO - Window changed: Machine learning - File Explorer
+2025-10-15 17:20:00,818 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_172000.png
+2025-10-15 17:20:32,432 - __main__ - INFO - Window changed: screenshots - File Explorer
+2025-10-15 17:20:32,830 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_172032.png
+2025-10-15 17:21:36,213 - __main__ - INFO - Window changed: storage - File Explorer
+2025-10-15 17:21:36,595 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_172136.png
+2025-10-15 17:22:08,288 - __main__ - INFO - Window changed: screenshots - File Explorer
+2025-10-15 17:22:08,654 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_172208.png
+2025-10-15 17:25:05,726 - __main__ - INFO - Shutdown signal received.
+2025-10-15 17:25:06,730 - activity_detector - INFO - Activity & movement detection stopped.
+2025-10-15 17:25:06,730 - screenshot_handler - INFO - Screenshot handler stopped.
+2025-10-15 17:25:06,730 - presence_detector - INFO - Presence detector stopped.
+2025-10-15 17:25:11,820 - reporter - INFO - Report generated: ./reports\daily_summary_2025-10-15.txt
+2025-10-15 17:25:11,820 - __main__ - INFO - Employee Monitor stopped.
+2025-10-15 18:01:30,215 - database - INFO - Movement DB initialized successfully.
+2025-10-15 18:01:30,231 - database - INFO - Database initialized successfully.
+2025-10-15 18:01:30,231 - activity_detector - INFO - Movement listeners started.
+2025-10-15 18:01:30,231 - activity_detector - INFO - Activity & movement detector started.
+2025-10-15 18:01:30,231 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-15 18:01:30,231 - presence_detector - INFO - Presence detector started.
+2025-10-15 18:01:30,242 - __main__ - INFO - Employee Monitor started.
+2025-10-15 18:01:30,242 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-15 18:01:30,431 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_180130.png
+2025-10-15 18:03:04,798 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251015_180304.jpg
+2025-10-15 18:03:05,533 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-15 18:03:05,533 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-15 18:03:05,660 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_180305.png
+2025-10-15 18:03:37,034 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-15 18:03:37,183 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_180337.png
+2025-10-15 18:04:08,693 - __main__ - INFO - Window changed: idle_photo_20251015_180304.jpg - koko - Visual Studio Code
+2025-10-15 18:04:08,869 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_180408.png
+2025-10-15 18:05:11,904 - __main__ - INFO - Window changed: screenshot_20251015_160753.png - koko - Visual Studio Code
+2025-10-15 18:05:12,066 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_180511.png
+2025-10-15 18:06:14,454 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251015_180614.jpg
+2025-10-15 18:06:15,182 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-15 18:06:15,182 - __main__ - INFO - Window changed: screenshot_20251015_160753.png - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-15 18:06:15,329 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_180615.png
+2025-10-15 18:06:46,744 - __main__ - INFO - Window changed: screenshot_20251015_160319.png - koko - Visual Studio Code
+2025-10-15 18:06:46,900 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_180646.png
+2025-10-15 18:08:20,775 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251015_180820.jpg
+2025-10-15 18:08:21,501 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-15 18:08:21,501 - __main__ - INFO - Window changed: screenshot_20251015_160319.png - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-15 18:08:21,637 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_180821.png
+2025-10-15 18:08:53,087 - __main__ - INFO - Window changed: screenshot_20251015_160455.png - koko - Visual Studio Code
+2025-10-15 18:08:53,275 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_180853.png
+2025-10-15 18:09:24,768 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-15 18:09:24,914 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_180924.png
+2025-10-15 18:10:25,328 - database - INFO - Movement DB initialized successfully.
+2025-10-15 18:10:25,328 - database - INFO - Database initialized successfully.
+2025-10-15 18:10:25,345 - activity_detector - INFO - Movement listeners started.
+2025-10-15 18:10:25,345 - activity_detector - INFO - Activity & movement detector started.
+2025-10-15 18:10:25,345 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-15 18:10:25,345 - presence_detector - INFO - Presence detector started.
+2025-10-15 18:10:25,351 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-15 18:10:25,351 - __main__ - INFO - Employee Monitor started.
+2025-10-15 18:10:25,496 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_181025.png
+2025-10-15 18:11:28,144 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251015_181128.jpg
+2025-10-15 18:11:28,923 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-15 18:11:28,924 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-15 18:11:29,062 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_181128.png
+2025-10-15 18:12:00,474 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-15 18:12:00,625 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_181200.png
+2025-10-15 18:14:02,052 - database - INFO - Movement DB initialized successfully.
+2025-10-15 18:14:02,052 - database - INFO - Database initialized successfully.
+2025-10-15 18:14:02,052 - activity_detector - INFO - Movement listeners started.
+2025-10-15 18:14:02,052 - activity_detector - INFO - Activity & movement detector started.
+2025-10-15 18:14:02,052 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-15 18:14:02,069 - presence_detector - INFO - Presence detector started.
+2025-10-15 18:14:02,069 - __main__ - INFO - Employee Monitor started.
+2025-10-15 18:14:02,069 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-15 18:14:02,227 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_181402.png
+2025-10-15 18:15:07,052 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251015_181507.jpg
+2025-10-15 18:15:07,815 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-15 18:15:07,815 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-15 18:15:07,974 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_181507.png
+2025-10-15 18:15:39,434 - __main__ - INFO - Window changed: idle_photo_20251015_181507.jpg - koko - Visual Studio Code
+2025-10-15 18:15:39,614 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_181539.png
+2025-10-15 18:16:11,110 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-15 18:16:11,461 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_181611.png
+2025-10-15 18:16:44,175 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251015_181644.jpg
+2025-10-15 18:16:44,929 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-15 18:16:44,929 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave | 0 keys, 0 clicks, 0px moved
+2025-10-15 18:16:45,253 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_181644.png
+2025-10-15 18:17:16,871 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-15 18:17:17,183 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_181716.png
+2025-10-15 18:17:49,680 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251015_181749.jpg
+2025-10-15 18:17:50,419 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-15 18:17:50,429 - __main__ - INFO - Window changed: idle_photo_20251015_181507.jpg - koko - Visual Studio Code | 0 keys, 1 clicks, 126px moved
+2025-10-15 18:17:50,623 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_181750.png
+2025-10-15 18:18:22,027 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-15 18:18:22,201 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_181822.png
+2025-10-15 18:18:54,544 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251015_181854.jpg
+2025-10-15 18:18:55,279 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-15 18:18:55,279 - __main__ - INFO - Window changed: screenshots - File Explorer | 0 keys, 0 clicks, 0px moved
+2025-10-15 18:18:55,556 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251015_181855.png
+2025-10-15 18:19:12,415 - __main__ - INFO - Shutdown signal received.
+2025-10-15 18:19:12,620 - activity_detector - INFO - Activity & movement detection stopped.
+2025-10-15 18:19:12,621 - screenshot_handler - INFO - Screenshot handler stopped.
+2025-10-15 18:19:12,622 - presence_detector - INFO - Presence detector stopped.
+2025-10-16 11:03:24,186 - database - INFO - Movement DB initialized successfully.
+2025-10-16 11:03:24,186 - database - INFO - Database initialized successfully.
+2025-10-16 11:03:24,199 - activity_detector - INFO - Movement listeners started.
+2025-10-16 11:03:24,202 - activity_detector - INFO - Activity & movement detector started.
+2025-10-16 11:03:24,202 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 11:03:24,203 - presence_detector - INFO - Presence detector started.
+2025-10-16 11:03:24,203 - __main__ - INFO - Employee Monitor started.
+2025-10-16 11:03:24,203 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-16 11:03:24,587 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_110324.png
+2025-10-16 11:03:57,184 - __main__ - INFO - Window changed: Home - File Explorer
+2025-10-16 11:03:57,472 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_110357.png
+2025-10-16 11:04:29,024 - __main__ - INFO - Window changed: Open in Chrome - Brave
+2025-10-16 11:04:29,293 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_110429.png
+2025-10-16 11:05:01,723 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251016_110501.jpg
+2025-10-16 11:05:02,447 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-16 11:05:02,447 - __main__ - INFO - Window changed: screenshot_20251016_110429.png - koko - Visual Studio Code | 0 keys, 1 clicks, 198px moved
+2025-10-16 11:05:02,596 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_110502.png
+2025-10-16 11:05:34,082 - __main__ - INFO - Window changed: idle_photo_20251016_110501.jpg - koko - Visual Studio Code
+2025-10-16 11:05:34,260 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_110534.png
+2025-10-16 11:05:49,166 - __main__ - INFO - Shutdown signal received.
+2025-10-16 11:48:09,789 - __main__ - ERROR - Start error: no such column: employee_id
+2025-10-16 11:55:32,680 - __main__ - INFO - Shutdown signal received.
+2025-10-16 11:55:32,680 - screenshot_handler - INFO - Screenshot handler stopped.
+2025-10-16 11:55:32,680 - presence_detector - INFO - Presence detector stopped.
+2025-10-16 11:55:32,689 - reporter - ERROR - Report generation error: 'keys_pressed'
+2025-10-16 11:55:32,689 - __main__ - INFO - Employee Monitor stopped.
+2025-10-16 11:55:38,317 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 11:55:38,317 - presence_detector - INFO - Presence detector started.
+2025-10-16 11:55:38,317 - __main__ - INFO - Employee Monitor started.
+2025-10-16 11:55:38,317 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 11:55:38,434 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115538.png
+2025-10-16 11:55:48,480 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 11:55:48,605 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115548.png
+2025-10-16 11:55:53,643 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 11:55:53,877 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115553.png
+2025-10-16 11:57:34,462 - __main__ - INFO - Window changed: Shubham Parmar (DM) - Geega Technologies - Slack - Brave
+2025-10-16 11:57:34,756 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115734.png
+2025-10-16 11:57:49,865 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 11:57:50,076 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115749.png
+2025-10-16 11:58:00,142 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 11:58:00,248 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115800.png
+2025-10-16 11:58:05,262 - __main__ - INFO - Window changed: idle_photo_20251015_181854.jpg - koko - Visual Studio Code
+2025-10-16 11:58:05,356 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115805.png
+2025-10-16 11:58:10,383 - __main__ - INFO - Window changed: idle_photo_20251016_110501.jpg - koko - Visual Studio Code
+2025-10-16 11:58:10,525 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115810.png
+2025-10-16 11:58:20,572 - __main__ - INFO - Window changed: screenshot_20251015_160120.png - koko - Visual Studio Code
+2025-10-16 11:58:20,660 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115820.png
+2025-10-16 11:58:25,675 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 11:58:25,814 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115825.png
+2025-10-16 11:58:30,841 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 11:58:31,033 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115830.png
+2025-10-16 11:58:46,130 - __main__ - INFO - Window changed: Report: daily_summary_2025-10-15.txt - Brave
+2025-10-16 11:58:46,315 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115846.png
+2025-10-16 11:58:51,358 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 11:58:51,600 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115851.png
+2025-10-16 11:58:56,642 - __main__ - INFO - Window changed: Report: daily_summary_2025-10-16.txt - Brave
+2025-10-16 11:58:56,809 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115856.png
+2025-10-16 11:59:01,869 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 11:59:02,084 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115901.png
+2025-10-16 11:59:17,191 - __main__ - INFO - Window changed: Employee monitoring libraries - Brave
+2025-10-16 11:59:17,409 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115917.png
+2025-10-16 11:59:22,456 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 11:59:22,640 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115922.png
+2025-10-16 11:59:42,785 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 11:59:43,018 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115942.png
+2025-10-16 11:59:48,055 - __main__ - INFO - Window changed: screenshot_20251016_115810.png - koko - Visual Studio Code
+2025-10-16 11:59:48,162 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_115948.png
+2025-10-16 12:00:53,449 - __main__ - INFO - Window changed: screenshot_20251016_115948.png - koko - Visual Studio Code
+2025-10-16 12:00:53,540 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_120053.png
+2025-10-16 12:00:58,567 - __main__ - INFO - Window changed: screenshot_20251016_120053.png - koko - Visual Studio Code
+2025-10-16 12:00:58,678 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_120058.png
+2025-10-16 12:01:28,810 - __main__ - INFO - Window changed: employee_monitor.py - koko - Cursor
+2025-10-16 12:01:29,028 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_120128.png
+2025-10-16 12:05:05,150 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:05:05,331 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_120505.png
+2025-10-16 12:05:20,418 - __main__ - INFO - Window changed: dashboard.html - koko - Visual Studio Code
+2025-10-16 12:05:20,536 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_120520.png
+2025-10-16 12:05:25,554 - __main__ - INFO - Window changed: employee_monitor.py - koko - Cursor
+2025-10-16 12:05:25,826 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_120525.png
+2025-10-16 12:05:30,874 - __main__ - INFO - Window changed: dashboard.html - koko - Visual Studio Code
+2025-10-16 12:05:30,985 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_120530.png
+2025-10-16 12:09:31,994 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 12:09:31,994 - presence_detector - INFO - Presence detector started.
+2025-10-16 12:09:31,994 - __main__ - INFO - Employee Monitor started.
+2025-10-16 12:09:31,994 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:09:42,026 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:10:52,399 - __main__ - INFO - Window changed: employee_monitor.py - koko - Cursor
+2025-10-16 12:11:57,731 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:12:07,816 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 12:12:12,862 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:12:17,879 - __main__ - INFO - Window changed: dashboard.html - koko - Visual Studio Code
+2025-10-16 12:12:27,925 - __main__ - INFO - Window changed: werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'employee_detail' with values ['employee_id']. Did you mean 'login' instead? // Werkzeug Debugger - Brave
+2025-10-16 12:12:37,989 - __main__ - INFO - Window changed: dashboard.html - koko - Visual Studio Code
+2025-10-16 12:12:48,025 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:12:58,057 - __main__ - INFO - Window changed: werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'employee_detail' with values ['employee_id']. Did you mean 'login' instead? // Werkzeug Debugger - Brave
+2025-10-16 12:13:08,101 - __main__ - INFO - Window changed: employee_monitor.py - koko - Cursor
+2025-10-16 12:14:28,527 - __main__ - INFO - Window changed: werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'employee_detail' with values ['employee_id']. Did you mean 'login' instead? // Werkzeug Debugger - Brave
+2025-10-16 12:14:33,564 - __main__ - INFO - Window changed: 127.0.0.1 - Brave
+2025-10-16 12:14:38,590 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:15:03,686 - __main__ - INFO - Window changed: employee_monitor.py - koko - Cursor
+2025-10-16 12:15:08,714 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 12:15:33,848 - __main__ - INFO - Window changed: werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'employee_detail' with values ['employee_id']. Did you mean 'login' instead? // Werkzeug Debugger - Brave
+2025-10-16 12:15:38,876 - __main__ - INFO - Window changed: Task Switching
+2025-10-16 12:15:43,899 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 12:16:59,411 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:17:04,449 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 12:17:09,472 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 12:17:14,486 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:17:19,509 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 12:17:24,552 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:17:34,589 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:19:50,367 - __main__ - INFO - Window changed: Report: daily_summary_2025-10-16.txt - Brave
+2025-10-16 12:20:00,426 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:20:10,499 - __main__ - INFO - Window changed: 127.0.0.1:5000/login - Brave
+2025-10-16 12:20:15,523 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:20:25,582 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 12:22:11,270 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 12:22:16,291 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:22:41,481 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 12:23:31,755 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:23:41,835 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 12:23:46,872 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:23:50,043 - __main__ - INFO - Shutdown signal received.
+2025-10-16 12:23:54,088 - screenshot_handler - INFO - Screenshot handler stopped.
+2025-10-16 12:23:54,088 - presence_detector - INFO - Presence detector stopped.
+2025-10-16 12:23:54,093 - reporter - ERROR - Report generation error: 'keys_pressed'
+2025-10-16 12:23:54,093 - __main__ - INFO - Employee Monitor stopped.
+2025-10-16 12:25:39,586 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 12:25:39,586 - presence_detector - INFO - Presence detector started.
+2025-10-16 12:25:39,586 - __main__ - INFO - Employee Monitor started.
+2025-10-16 12:25:39,587 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:25:44,597 - __main__ - INFO - Window changed: Untitled - Brave
+2025-10-16 12:25:49,617 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:26:34,863 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 12:26:39,902 - __main__ - INFO - Window changed: main.py - TimeChamp - Visual Studio Code
+2025-10-16 12:26:44,912 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-16 12:27:05,017 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:28:25,563 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-16 12:28:35,610 - __main__ - INFO - Window changed: New Tab - Brave
+2025-10-16 12:28:40,647 - __main__ - INFO - Window changed: (217) YouTube - Brave
+2025-10-16 12:28:45,679 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-16 12:29:05,775 - __main__ - INFO - Window changed: (217) YouTube - Brave
+2025-10-16 12:29:15,827 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-16 12:31:21,366 - __main__ - INFO - Window changed: screenshot_20251016_120530.png - koko - Visual Studio Code
+2025-10-16 12:31:41,455 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:32:01,582 - __main__ - INFO - Window changed: Report: daily_summary_2025-10-16.txt - Brave
+2025-10-16 12:32:06,614 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:32:31,768 - __main__ - INFO - Window changed: screenshot_20251016_120530.png - koko - Visual Studio Code
+2025-10-16 12:32:46,824 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-16 12:33:01,880 - __main__ - INFO - Window changed: ● config.py - koko - Visual Studio Code
+2025-10-16 12:34:07,160 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-16 12:34:32,308 - __main__ - INFO - Window changed: six.py - koko - Visual Studio Code
+2025-10-16 12:34:47,362 - __main__ - INFO - Window changed: database.py - koko - Visual Studio Code
+2025-10-16 12:34:57,396 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:35:02,434 - __main__ - INFO - Window changed: Task Switching
+2025-10-16 12:35:07,463 - __main__ - INFO - Window changed: database.py - koko - Visual Studio Code
+2025-10-16 12:35:17,497 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-16 12:35:22,511 - __main__ - INFO - Window changed: Task Switching
+2025-10-16 12:35:27,530 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-16 12:35:32,550 - __main__ - INFO - Window changed: activity_detector.py - koko - Visual Studio Code
+2025-10-16 12:35:37,585 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:36:37,838 - __main__ - INFO - Window changed: database.py - koko - Visual Studio Code
+2025-10-16 12:37:02,940 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 12:37:13,013 - __main__ - INFO - Window changed: database.py - koko - Visual Studio Code
+2025-10-16 12:37:28,079 - __main__ - INFO - Window changed: logger.py - koko - Visual Studio Code
+2025-10-16 12:37:33,096 - __main__ - INFO - Window changed: activity_detector.py - koko - Visual Studio Code
+2025-10-16 12:37:38,118 - __main__ - INFO - Window changed: database.py - koko - Visual Studio Code
+2025-10-16 12:37:43,143 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:38:03,223 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:38:28,369 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 12:39:38,764 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:39:58,886 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:40:13,932 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:40:23,999 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 12:40:29,036 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:40:39,086 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:40:44,120 - __main__ - INFO - Window changed: Task Switching
+2025-10-16 12:40:49,162 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 12:41:29,406 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:41:49,493 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:41:54,532 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:42:04,563 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:42:19,671 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:42:25,188 - __main__ - INFO - Shutdown signal received.
+2025-10-16 12:42:30,213 - __main__ - INFO - Shutdown signal received.
+2025-10-16 12:42:31,587 - screenshot_handler - INFO - Screenshot handler stopped.
+2025-10-16 12:42:31,587 - presence_detector - INFO - Presence detector stopped.
+2025-10-16 12:42:31,603 - reporter - ERROR - Report generation error: 'keys_pressed'
+2025-10-16 12:42:31,603 - __main__ - INFO - Employee Monitor stopped.
+2025-10-16 12:44:30,703 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 12:44:30,703 - presence_detector - INFO - Presence detector started.
+2025-10-16 12:44:30,703 - __main__ - INFO - Employee Monitor started.
+2025-10-16 12:44:30,703 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:44:40,735 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:45:05,846 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 12:45:25,942 - __main__ - INFO - Window changed: Task Switching
+2025-10-16 12:45:36,017 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:45:41,046 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:45:51,088 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:46:16,241 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:46:58,677 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 12:46:58,677 - presence_detector - INFO - Presence detector started.
+2025-10-16 12:46:58,677 - __main__ - INFO - Employee Monitor started.
+2025-10-16 12:46:58,677 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:47:08,714 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:47:23,802 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 12:47:33,869 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:47:38,923 - __main__ - INFO - Window changed: Employee Monitoring System in Python - Grok - Brave
+2025-10-16 12:47:43,956 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 12:47:48,974 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:48:04,026 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 12:48:24,164 - __main__ - INFO - Window changed: Cursor Settings - koko - Cursor
+2025-10-16 12:48:34,228 - __main__ - INFO - Window changed: Login Deep Control - Brave
+2025-10-16 12:48:39,254 - __main__ - INFO - Window changed: Cursor - The AI Code Editor - Brave
+2025-10-16 12:48:44,287 - __main__ - INFO - Window changed: Sign in - Brave
+2025-10-16 12:49:19,462 - __main__ - INFO - Window changed: Sign in - Google Accounts - Brave
+2025-10-16 12:49:34,539 - __main__ - INFO - Window changed: Welcome - Brave
+2025-10-16 12:51:45,297 - __main__ - INFO - Window changed: Use your fingerprint, face, or screen lock - Brave
+2025-10-16 12:51:55,338 - __main__ - INFO - Window changed: Sign in - Google Accounts - Brave
+2025-10-16 12:52:15,442 - __main__ - INFO - Window changed: Redirecting - Brave
+2025-10-16 12:52:20,467 - __main__ - INFO - Window changed: Cursor: The best way to code with AI - Brave
+2025-10-16 12:52:25,508 - __main__ - INFO - Window changed: Sign in - Brave
+2025-10-16 12:52:30,529 - __main__ - INFO - Window changed: Sign in - Google Accounts - Brave
+2025-10-16 12:52:40,581 - __main__ - INFO - Window changed: Cursor - The AI Code Editor - Brave
+2025-10-16 12:52:45,601 - __main__ - INFO - Window changed: Cursor Settings - koko - Cursor
+2025-10-16 12:52:50,621 - __main__ - INFO - Window changed: Login Deep Control - Brave
+2025-10-16 12:52:55,668 - __main__ - INFO - Window changed: Auth | Cursor - The AI Code Editor - Brave
+2025-10-16 12:53:00,689 - __main__ - INFO - Window changed: Cursor Settings - koko - Cursor
+2025-10-16 12:54:11,045 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:54:16,247 - __main__ - INFO - Shutdown signal received.
+2025-10-16 12:54:56,551 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 12:54:56,551 - presence_detector - INFO - Presence detector started.
+2025-10-16 12:54:56,551 - __main__ - INFO - Employee Monitor started.
+2025-10-16 12:54:56,551 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:55:11,623 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:55:26,725 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:55:31,742 - __main__ - INFO - Window changed: Cursor Settings - koko - Cursor
+2025-10-16 12:56:42,086 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:57:17,251 - __main__ - INFO - Window changed: Cursor Settings - koko - Cursor
+2025-10-16 12:57:42,364 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:57:47,381 - __main__ - INFO - Window changed: ● config.py - koko - Visual Studio Code
+2025-10-16 12:58:07,472 - __main__ - INFO - Window changed: Cursor Settings - koko - Cursor
+2025-10-16 12:58:17,536 - __main__ - INFO - Window changed: ● config.py - koko - Visual Studio Code
+2025-10-16 12:58:53,392 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 12:58:53,392 - presence_detector - INFO - Presence detector started.
+2025-10-16 12:58:53,392 - __main__ - INFO - Employee Monitor started.
+2025-10-16 12:58:53,392 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:59:03,420 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 12:59:13,471 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 12:59:18,516 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 12:59:23,542 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 12:59:28,567 - __main__ - INFO - Window changed: Cursor Settings - koko - Cursor
+2025-10-16 13:00:23,895 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 13:01:29,596 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 13:01:29,596 - presence_detector - INFO - Presence detector started.
+2025-10-16 13:01:29,596 - __main__ - INFO - Employee Monitor started.
+2025-10-16 13:01:29,596 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 13:01:39,627 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 13:02:04,742 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 13:02:09,778 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 13:02:49,922 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 13:03:25,100 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 13:03:35,144 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 13:04:00,278 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 13:05:46,678 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 13:05:46,678 - presence_detector - INFO - Presence detector started.
+2025-10-16 13:05:46,678 - __main__ - INFO - Employee Monitor started.
+2025-10-16 13:05:46,678 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 13:05:51,705 - __main__ - INFO - Window changed: Untitled - Brave
+2025-10-16 13:05:56,760 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 13:07:57,526 - __main__ - INFO - Window changed: screenshot_20251016_120128.png - koko - Visual Studio Code
+2025-10-16 13:08:02,549 - __main__ - INFO - Window changed: screenshot_20251016_120530.png - koko - Visual Studio Code
+2025-10-16 13:08:22,633 - __main__ - INFO - Window changed: idle_photo_20251015_181749.jpg - koko - Visual Studio Code
+2025-10-16 13:08:32,679 - __main__ - INFO - Window changed: idle_photo_20251016_110501.jpg - koko - Visual Studio Code
+2025-10-16 13:09:02,802 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 13:14:50,057 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 13:14:55,090 - __main__ - INFO - Window changed: idle_photo_20251016_110501.jpg - koko - Visual Studio Code
+2025-10-16 13:15:05,136 - __main__ - INFO - Window changed: ● config.py - koko - Visual Studio Code
+2025-10-16 13:15:10,154 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-16 13:15:15,175 - __main__ - INFO - Window changed: main.py - TimeChamp - Visual Studio Code
+2025-10-16 13:15:20,203 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 13:15:30,261 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-16 13:15:40,317 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 13:15:50,379 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 13:16:15,549 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 13:16:20,583 - __main__ - INFO - Window changed: idle_photo_handler.py - koko - Visual Studio Code
+2025-10-16 13:16:35,646 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-16 13:24:37,431 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 13:24:47,509 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-16 13:24:52,533 - __main__ - INFO - Window changed: idle_photo_20251016_110501.jpg - koko - Visual Studio Code
+2025-10-16 13:25:02,574 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-16 14:31:44,215 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 14:31:44,215 - presence_detector - INFO - Presence detector started.
+2025-10-16 14:31:44,215 - __main__ - INFO - Employee Monitor started.
+2025-10-16 14:31:44,215 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-16 14:31:54,254 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 14:32:04,293 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 14:32:59,722 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 14:33:04,751 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 14:43:07,289 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251016_144307.jpg
+2025-10-16 14:43:08,290 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-16 14:43:08,290 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-16 14:43:13,303 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 14:43:18,362 - __main__ - INFO - Window changed: System Idle Process
+2025-10-16 14:43:37,483 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 14:43:41,239 - __main__ - INFO - Shutdown signal received.
+2025-10-16 14:43:44,026 - screenshot_handler - INFO - Screenshot handler stopped.
+2025-10-16 14:43:44,026 - presence_detector - INFO - Presence detector stopped.
+2025-10-16 14:43:44,029 - reporter - ERROR - Report generation error: 'keys_pressed'
+2025-10-16 14:43:44,029 - __main__ - INFO - Employee Monitor stopped.
+2025-10-16 14:51:47,496 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 14:51:47,496 - presence_detector - INFO - Presence detector started.
+2025-10-16 14:51:47,496 - __main__ - INFO - Employee Monitor started.
+2025-10-16 14:51:47,496 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 14:51:57,535 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 14:53:02,983 - __main__ - INFO - Window changed: 127.0.0.1:5000/login - Brave
+2025-10-16 14:53:08,053 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 14:53:18,120 - __main__ - INFO - Window changed: Report: daily_summary_2025-10-16.txt - Brave
+2025-10-16 14:53:23,164 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 14:53:33,245 - __main__ - INFO - Window changed: YouTube - Brave
+2025-10-16 14:53:38,283 - __main__ - INFO - Window changed: (218) YouTube - Brave
+2025-10-16 14:53:48,361 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 14:54:08,456 - __main__ - INFO - Window changed: dashboard.html - koko - Cursor
+2025-10-16 14:54:33,569 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 14:55:03,776 - __main__ - INFO - Window changed: dashboard.html - koko - Cursor
+2025-10-16 14:56:44,270 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 14:56:59,397 - __main__ - INFO - Window changed: daily_summary_2025-10-16.txt - koko - Visual Studio Code
+2025-10-16 14:57:09,462 - __main__ - INFO - Window changed: employee_monitor.db - koko - Visual Studio Code
+2025-10-16 14:57:14,497 - __main__ - INFO - Window changed: dashboard.html - koko - Cursor
+2025-10-16 14:57:43,985 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 14:57:43,985 - presence_detector - INFO - Presence detector started.
+2025-10-16 14:57:43,985 - __main__ - INFO - Employee Monitor started.
+2025-10-16 14:57:43,985 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 14:57:49,015 - __main__ - INFO - Window changed: Untitled - Brave
+2025-10-16 14:57:54,059 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 14:58:54,501 - __main__ - INFO - Window changed: Unknown Window
+2025-10-16 14:58:59,530 - __main__ - INFO - Window changed: employee_monitor.db - koko - Visual Studio Code
+2025-10-16 14:59:04,565 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 14:59:09,583 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 14:59:39,796 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 14:59:44,825 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 14:59:49,863 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:00:49,310 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 15:00:49,310 - presence_detector - INFO - Presence detector started.
+2025-10-16 15:00:49,310 - __main__ - INFO - Employee Monitor started.
+2025-10-16 15:00:49,310 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:00:54,336 - __main__ - INFO - Window changed: Untitled - Brave
+2025-10-16 15:00:59,383 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:01:24,546 - __main__ - INFO - Window changed: (218) YouTube - Brave
+2025-10-16 15:01:29,584 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:01:34,613 - __main__ - INFO - Window changed: Machine learning - File Explorer
+2025-10-16 15:01:39,641 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:02:24,952 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:04:49,194 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 15:04:49,194 - presence_detector - INFO - Presence detector started.
+2025-10-16 15:04:49,210 - __main__ - INFO - Employee Monitor started.
+2025-10-16 15:04:49,210 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:05:15,067 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 15:05:15,067 - presence_detector - INFO - Presence detector started.
+2025-10-16 15:05:15,067 - __main__ - INFO - Employee Monitor started.
+2025-10-16 15:05:15,067 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:05:25,132 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:06:00,397 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:07:30,866 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:08:06,165 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:09:02,195 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 15:09:02,195 - presence_detector - INFO - Presence detector started.
+2025-10-16 15:09:02,195 - __main__ - INFO - Employee Monitor started.
+2025-10-16 15:09:02,195 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:09:07,217 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:10:07,667 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:10:27,774 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:10:32,813 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:11:44,537 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 15:11:44,537 - presence_detector - INFO - Presence detector started.
+2025-10-16 15:11:44,537 - __main__ - INFO - Employee Monitor started.
+2025-10-16 15:11:44,537 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:11:54,599 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:12:44,969 - __main__ - INFO - Window changed: employee_monitor.db - koko - Visual Studio Code
+2025-10-16 15:12:49,997 - __main__ - INFO - Window changed: idle_photo_20251016_144307.jpg - koko - Visual Studio Code
+2025-10-16 15:13:05,072 - __main__ - INFO - Window changed: screenshot_20251015_164840.png - koko - Visual Studio Code
+2025-10-16 15:13:15,149 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:18:47,597 - __main__ - INFO - Window changed: screenshot_20251015_164840.png - koko - Visual Studio Code
+2025-10-16 15:18:52,620 - __main__ - INFO - Window changed: idle_photo_20251016_144307.jpg - koko - Visual Studio Code
+2025-10-16 15:22:18,891 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 15:22:23,917 - __main__ - INFO - Window changed: presence_detector.py - koko - Visual Studio Code
+2025-10-16 15:22:28,951 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:31:41,108 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 15:31:41,108 - presence_detector - INFO - Presence detector started.
+2025-10-16 15:31:41,108 - __main__ - INFO - Employee Monitor started.
+2025-10-16 15:31:41,108 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:31:56,151 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:34:01,925 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:35:17,144 - __main__ - INFO - Window changed: main.py - TimeChamp - Visual Studio Code
+2025-10-16 15:36:14,281 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 15:36:14,289 - presence_detector - INFO - Presence detector started.
+2025-10-16 15:36:14,289 - __main__ - INFO - Employee Monitor started.
+2025-10-16 15:36:14,289 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 15:36:35,308 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 15:36:35,308 - presence_detector - INFO - Presence detector started.
+2025-10-16 15:36:35,308 - __main__ - INFO - Employee Monitor started.
+2025-10-16 15:36:35,308 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 15:36:45,333 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:37:00,406 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 15:37:05,419 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:37:20,487 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 15:37:45,566 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:37:55,612 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:38:00,633 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:38:10,691 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 15:38:15,701 - __main__ - INFO - Window changed: Untitled - Brave
+2025-10-16 15:38:20,734 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:38:35,817 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 15:38:45,842 - __main__ - INFO - Window changed: idle_photo_20251016_110501.jpg - koko - Visual Studio Code
+2025-10-16 15:38:50,857 - __main__ - INFO - Window changed: idle_photo_20251015_181854.jpg - koko - Visual Studio Code
+2025-10-16 15:39:00,904 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 15:41:02,093 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251016_154102.jpg
+2025-10-16 15:41:02,873 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-16 15:41:02,873 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-16 15:41:07,889 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 15:42:08,797 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251016_154208.jpg
+2025-10-16 15:42:09,540 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-16 15:42:09,540 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-16 15:42:14,550 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 15:42:29,622 - __main__ - INFO - Window changed: screenshot_20251016_120530.png - koko - Visual Studio Code
+2025-10-16 15:42:39,660 - __main__ - INFO - Window changed: idle_photo_20251016_154102.jpg - koko - Visual Studio Code
+2025-10-16 15:42:44,687 - __main__ - INFO - Window changed: idle_photo_20251016_154208.jpg - koko - Visual Studio Code
+2025-10-16 15:42:54,729 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:43:09,801 - __main__ - INFO - Window changed: explorer.exe
+2025-10-16 15:43:14,839 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:43:19,879 - __main__ - INFO - Window changed: Report: daily_summary_2025-10-16.txt - Brave
+2025-10-16 15:43:24,899 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:44:00,069 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:44:25,219 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:44:30,245 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:44:40,313 - __main__ - INFO - Window changed: daily_summary_2025-10-15.txt - koko - Cursor
+2025-10-16 15:44:45,324 - __main__ - INFO - Window changed: daily_summary_2025-10-16.txt - koko - Cursor
+2025-10-16 15:45:15,486 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:47:16,884 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251016_154716.jpg
+2025-10-16 15:47:17,680 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-16 15:47:17,683 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave | 0 keys, 0 clicks, 0px moved
+2025-10-16 15:47:22,710 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:47:52,878 - __main__ - INFO - Window changed: daily_summary_2025-10-16.txt - koko - Cursor
+2025-10-16 15:48:07,962 - __main__ - INFO - Window changed: idle_photo_20251016_154208.jpg - koko - Visual Studio Code
+2025-10-16 15:48:35,468 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 15:48:35,468 - presence_detector - INFO - Presence detector started.
+2025-10-16 15:48:35,468 - __main__ - INFO - Employee Monitor started.
+2025-10-16 15:48:35,484 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 15:48:45,506 - __main__ - INFO - Window changed: Untitled - Brave
+2025-10-16 15:48:50,533 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:49:10,622 - __main__ - INFO - Window changed: Report: daily_summary_2025-10-16.txt - Brave
+2025-10-16 15:49:15,640 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:49:20,670 - __main__ - INFO - Window changed: daily_summary_2025-10-16.txt - koko - Cursor
+2025-10-16 15:49:35,740 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 15:49:40,754 - __main__ - INFO - Window changed: daily_summary_2025-10-15.txt - koko - Visual Studio Code
+2025-10-16 15:49:45,771 - __main__ - INFO - Window changed: daily_summary_2025-10-16.txt - koko - Visual Studio Code
+2025-10-16 15:50:00,829 - __main__ - INFO - Window changed: (218) YouTube - Brave
+2025-10-16 15:50:05,849 - __main__ - INFO - Window changed: daily_summary_2025-10-16.txt - koko - Visual Studio Code
+2025-10-16 15:50:15,892 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:50:20,909 - __main__ - INFO - Window changed: (218) YouTube - Brave
+2025-10-16 15:50:46,030 - __main__ - INFO - Window changed: daily_summary_2025-10-16.txt - koko - Visual Studio Code
+2025-10-16 15:51:01,087 - __main__ - INFO - Window changed: screenshot_20251016_120530.png - koko - Visual Studio Code
+2025-10-16 15:51:26,156 - __main__ - INFO - Window changed: daily_summary_2025-10-16.txt - koko - Cursor
+2025-10-16 15:52:46,601 - __main__ - INFO - Window changed: (218) YouTube - Brave
+2025-10-16 15:52:51,635 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:53:11,801 - __main__ - INFO - Window changed: daily_summary_2025-10-16.txt - koko - Cursor
+2025-10-16 15:54:02,030 - __main__ - INFO - Window changed: explorer.exe
+2025-10-16 15:54:21,763 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 15:54:21,763 - presence_detector - INFO - Presence detector started.
+2025-10-16 15:54:21,763 - __main__ - INFO - Employee Monitor started.
+2025-10-16 15:54:21,763 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 15:54:31,812 - __main__ - INFO - Window changed: Untitled - Brave
+2025-10-16 15:54:36,851 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:57:17,758 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 15:57:27,785 - __main__ - INFO - Window changed: (218) YouTube - Brave
+2025-10-16 15:57:28,262 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_155727.png
+2025-10-16 15:57:38,335 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 15:57:43,351 - __main__ - INFO - Window changed: screenshot_20251016_155727.png - koko - Visual Studio Code
+2025-10-16 15:57:48,377 - __main__ - INFO - Window changed: (218) YouTube - Brave
+2025-10-16 15:57:48,795 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251016_155748.png
+2025-10-16 15:58:24,002 - __main__ - INFO - Window changed: screenshot_20251016_155748.png - koko - Visual Studio Code
+2025-10-16 15:58:34,030 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:58:54,169 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 15:59:24,339 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 15:59:29,365 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 16:01:59,810 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 16:01:59,811 - presence_detector - INFO - Presence detector started.
+2025-10-16 16:01:59,811 - __main__ - INFO - Employee Monitor started.
+2025-10-16 16:01:59,811 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 16:02:04,826 - __main__ - INFO - Window changed: Untitled - Brave
+2025-10-16 16:02:09,860 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 16:02:19,928 - __main__ - INFO - Window changed: 127.0.0.1:5000 wants to save
+2025-10-16 16:02:24,950 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 16:02:29,960 - __main__ - INFO - Window changed: 01_2025-10-16_timeline.csv - koko - Visual Studio Code
+2025-10-16 16:03:43,147 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 16:03:43,147 - presence_detector - INFO - Presence detector started.
+2025-10-16 16:03:43,147 - __main__ - INFO - Employee Monitor started.
+2025-10-16 16:03:43,163 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 16:03:48,181 - __main__ - INFO - Window changed: Untitled - Brave
+2025-10-16 16:03:53,220 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 16:04:13,338 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 16:04:18,364 - __main__ - INFO - Window changed: explorer.exe
+2025-10-16 16:04:23,400 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 16:04:58,568 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 16:05:43,787 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 16:06:13,953 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 16:06:24,017 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 16:06:39,089 - __main__ - INFO - Window changed: UNKNOWN_2025-10-16_timeline.csv - koko - Visual Studio Code
+2025-10-16 16:06:54,124 - __main__ - INFO - Window changed: explorer.exe
+2025-10-16 16:06:59,140 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 16:07:14,213 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 16:11:00,330 - __main__ - INFO - Window changed: UNKNOWN_2025-10-16_timeline.csv - koko - Visual Studio Code
+2025-10-16 16:23:07,351 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-16 16:23:07,352 - presence_detector - INFO - Presence detector started.
+2025-10-16 16:23:07,353 - __main__ - INFO - Employee Monitor started.
+2025-10-16 16:23:07,353 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 16:23:22,398 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 16:24:17,653 - __main__ - INFO - Window changed: Employees - Brave
+2025-10-16 16:24:32,765 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 16:25:33,061 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 16:27:34,392 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251016_162734.jpg
+2025-10-16 16:27:35,164 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-16 16:27:35,164 - __main__ - INFO - Window changed: app.py - koko - Cursor | 0 keys, 0 clicks, 0px moved
+2025-10-16 16:27:40,189 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 16:28:41,290 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251016_162841.jpg
+2025-10-16 16:28:42,022 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-16 16:28:42,022 - __main__ - INFO - Window changed: app.py - koko - Cursor | 0 keys, 0 clicks, 0px moved
+2025-10-16 16:28:47,048 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 16:29:22,247 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 16:29:27,262 - __main__ - INFO - Window changed: explorer.exe
+2025-10-16 16:29:32,280 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 16:32:43,317 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 16:33:03,448 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 16:33:13,485 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 16:34:38,936 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 16:34:43,970 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 16:34:48,994 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-16 16:34:54,030 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-10-16 16:34:59,054 - __main__ - INFO - Window changed: presence_detector.py - koko - Visual Studio Code
+2025-10-16 16:35:04,064 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-16 16:35:09,084 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-16 16:35:14,097 - __main__ - INFO - Window changed: screenshot_20251016_155748.png - koko - Visual Studio Code
+2025-10-16 16:35:19,112 - __main__ - INFO - Window changed: employee_monitor.db - koko - Visual Studio Code
+2025-10-16 16:35:24,125 - __main__ - INFO - Window changed: idle_photo_handler.py - koko - Visual Studio Code
+2025-10-16 16:35:39,180 - __main__ - INFO - Window changed: idle_photo_20251016_162841.jpg - koko - Visual Studio Code
+2025-10-16 16:37:45,330 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251016_163745.jpg
+2025-10-16 16:37:46,070 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-16 16:37:46,072 - __main__ - INFO - Window changed: idle_photo_20251016_162841.jpg - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-16 16:37:51,085 - __main__ - INFO - Window changed: idle_photo_20251016_162841.jpg - koko - Visual Studio Code
+2025-10-16 16:38:31,265 - __main__ - INFO - Window changed: idle_photo_20251016_163745.jpg - koko - Visual Studio Code
+2025-10-16 16:40:31,999 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251016_164031.jpg
+2025-10-16 16:40:32,751 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-16 16:40:32,751 - __main__ - INFO - Window changed: idle_photo_20251016_163745.jpg - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-16 16:40:37,765 - __main__ - INFO - Window changed: idle_photo_20251016_163745.jpg - koko - Visual Studio Code
+2025-10-16 16:40:42,793 - __main__ - INFO - Window changed: idle_photo_20251016_164031.jpg - koko - Visual Studio Code
+2025-10-16 16:41:02,948 - __main__ - INFO - Shutdown signal received.
+2025-10-27 10:42:26,231 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-27 10:42:26,231 - presence_detector - INFO - Presence detector started.
+2025-10-27 10:42:26,242 - __main__ - INFO - Employee Monitor started.
+2025-10-27 10:42:26,242 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 10:42:31,259 - __main__ - INFO - Window changed: explorer.exe
+2025-10-27 10:42:36,272 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-27 10:45:31,764 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 10:45:56,828 - __main__ - INFO - Window changed: idle_photo_20251016_164031.jpg - koko - Visual Studio Code
+2025-10-27 10:46:52,017 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 10:47:07,053 - __main__ - INFO - Window changed: screenshot_20251015_160351.png - koko - Visual Studio Code
+2025-10-27 10:47:12,069 - __main__ - INFO - Window changed: screenshot_20251015_160120.png - koko - Visual Studio Code
+2025-10-27 10:47:22,113 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 10:47:42,173 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-27 10:47:47,186 - __main__ - INFO - Window changed: Oonchi Oonchi Waadi | Akshay Kumar, Pankaj Tripathi, Yami G | Hansraj Raghuwanshi | OMG 2 | Lyrical - YouTube - Brave
+2025-10-27 10:47:47,463 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251027_104747.png
+2025-10-27 10:47:52,479 - __main__ - INFO - Window changed: explorer.exe
+2025-10-27 10:47:57,489 - __main__ - INFO - Window changed: screenshot_20251027_104747.png - koko - Visual Studio Code
+2025-10-27 10:48:07,517 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 10:48:37,622 - __main__ - INFO - Window changed: New Tab - Brave
+2025-10-27 10:48:42,638 - __main__ - INFO - Window changed: Dashboard - Brave
+2025-10-27 10:48:47,648 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-27 10:50:58,099 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 10:52:59,086 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_105259.jpg
+2025-10-27 10:52:59,876 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 10:52:59,876 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 10:53:04,900 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 10:54:05,610 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_105405.jpg
+2025-10-27 10:54:06,360 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 10:54:06,360 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 10:54:11,381 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 10:55:12,102 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_105512.jpg
+2025-10-27 10:55:12,885 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 10:55:12,885 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 10:55:17,893 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 10:56:18,573 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_105618.jpg
+2025-10-27 10:56:19,361 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 10:56:19,361 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 10:56:24,381 - __main__ - INFO - Window changed: idle_photo_20251027_105259.jpg - koko - Visual Studio Code
+2025-10-27 10:56:29,387 - __main__ - INFO - Window changed: idle_photo_20251027_105618.jpg - koko - Visual Studio Code
+2025-10-27 10:56:34,417 - __main__ - INFO - Window changed: idle_photo_20251027_105259.jpg - koko - Visual Studio Code
+2025-10-27 10:56:39,437 - __main__ - INFO - Window changed: idle_photo_20251027_105618.jpg - koko - Visual Studio Code
+2025-10-27 10:56:49,462 - __main__ - INFO - Window changed: screenshot_20251027_104747.png - koko - Visual Studio Code
+2025-10-27 10:56:54,480 - __main__ - INFO - Window changed: idle_photo_20251027_105618.jpg - koko - Visual Studio Code
+2025-10-27 10:57:04,508 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 10:59:05,448 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_105905.jpg
+2025-10-27 10:59:06,227 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 10:59:06,227 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 10:59:11,251 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 11:00:11,999 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_110011.jpg
+2025-10-27 11:00:12,751 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:00:12,751 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:00:17,766 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 11:01:18,510 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_110118.jpg
+2025-10-27 11:01:19,266 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:01:19,266 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:01:24,287 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 11:02:25,011 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_110225.jpg
+2025-10-27 11:02:25,801 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:02:25,801 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:02:30,815 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 11:02:40,838 - __main__ - INFO - Window changed: idle_photo_20251027_110225.jpg - koko - Visual Studio Code
+2025-10-27 11:02:45,858 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 11:05:41,988 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_110541.jpg
+2025-10-27 11:05:42,746 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:05:42,746 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:05:47,761 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 11:05:52,775 - __main__ - INFO - Window changed: idle_photo_20251027_110541.jpg - koko - Visual Studio Code
+2025-10-27 11:05:57,784 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 11:09:03,982 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_110903.jpg
+2025-10-27 11:09:04,750 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:09:04,750 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:09:09,761 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 11:09:14,769 - __main__ - INFO - Window changed: idle_photo_20251027_110903.jpg - koko - Visual Studio Code
+2025-10-27 11:10:40,028 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 11:12:40,985 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_111240.jpg
+2025-10-27 11:12:41,754 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:12:41,754 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:12:46,778 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 11:12:51,788 - __main__ - INFO - Window changed: idle_photo_20251027_111240.jpg - koko - Visual Studio Code
+2025-10-27 11:12:56,807 - __main__ - INFO - Window changed: idle_photo_20251027_110903.jpg - koko - Visual Studio Code
+2025-10-27 11:13:11,860 - __main__ - INFO - Window changed: idle_photo_20251027_111240.jpg - koko - Visual Studio Code
+2025-10-27 11:13:26,910 - __main__ - INFO - Window changed: idle_photo_20251027_110541.jpg - koko - Visual Studio Code
+2025-10-27 11:13:31,926 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 11:13:36,934 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-27 11:17:23,205 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_111723.jpg
+2025-10-27 11:17:23,945 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:17:23,945 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:17:28,972 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-27 11:17:39,001 - __main__ - INFO - Window changed: Home - File Explorer
+2025-10-27 11:17:44,019 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2025-10-27 11:17:54,049 - __main__ - INFO - Window changed: idle_photo_20251027_111240.jpg - koko - Visual Studio Code
+2025-10-27 11:20:12,423 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-27 11:20:12,423 - presence_detector - INFO - Presence detector started.
+2025-10-27 11:20:12,423 - __main__ - INFO - Employee Monitor started.
+2025-10-27 11:20:12,423 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-27 11:23:03,502 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_112303.jpg
+2025-10-27 11:23:04,287 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:23:04,287 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:23:09,308 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-27 11:23:39,978 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_112339.jpg
+2025-10-27 11:23:40,741 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:23:40,741 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:23:45,751 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-27 11:24:16,368 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_112416.jpg
+2025-10-27 11:24:17,145 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:24:17,145 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:24:22,163 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-27 11:24:52,800 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_112452.jpg
+2025-10-27 11:24:53,591 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:24:53,591 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:24:58,598 - __main__ - INFO - Window changed: config.py - koko - Visual Studio Code
+2025-10-27 11:25:18,656 - __main__ - INFO - Window changed: idle_photo_20251027_112452.jpg - koko - Visual Studio Code
+2025-10-27 11:25:28,706 - __main__ - INFO - Window changed: idle_photo_20251027_112339.jpg - koko - Visual Studio Code
+2025-10-27 11:25:38,725 - __main__ - INFO - Window changed: idle_photo_20251027_112303.jpg - koko - Visual Studio Code
+2025-10-27 11:25:43,743 - __main__ - INFO - Window changed: idle_photo_20251027_112452.jpg - koko - Visual Studio Code
+2025-10-27 11:26:44,487 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_112644.jpg
+2025-10-27 11:26:45,241 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:26:45,241 - __main__ - INFO - Window changed: idle_photo_20251027_112452.jpg - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:26:50,248 - __main__ - INFO - Window changed: idle_photo_20251027_112452.jpg - koko - Visual Studio Code
+2025-10-27 11:27:20,883 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_112720.jpg
+2025-10-27 11:27:21,654 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:27:21,654 - __main__ - INFO - Window changed: idle_photo_20251027_112452.jpg - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:27:26,670 - __main__ - INFO - Window changed: idle_photo_20251027_112452.jpg - koko - Visual Studio Code
+2025-10-27 11:27:57,321 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_112757.jpg
+2025-10-27 11:27:58,070 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:27:58,070 - __main__ - INFO - Window changed: idle_photo_20251027_112452.jpg - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:28:03,085 - __main__ - INFO - Window changed: idle_photo_20251027_112452.jpg - koko - Visual Studio Code
+2025-10-27 11:28:33,740 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_112833.jpg
+2025-10-27 11:28:34,503 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:28:34,503 - __main__ - INFO - Window changed: idle_photo_20251027_112452.jpg - koko - Visual Studio Code | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:28:39,510 - __main__ - INFO - Window changed: idle_photo_20251027_112452.jpg - koko - Visual Studio Code
+2025-10-27 11:28:49,541 - __main__ - INFO - Window changed: gtgt.geegatechnologies.com is asking you to
+2025-10-27 11:28:54,564 - __main__ - INFO - Window changed: ChatGPT - Brave
+2025-10-27 11:29:14,632 - __main__ - INFO - Window changed: Print hello in HTML - Brave
+2025-10-27 11:29:39,718 - __main__ - INFO - Window changed: window_detector.py - koko - Visual Studio Code
+2025-10-27 11:29:49,735 - __main__ - INFO - Window changed: ● m.html - koko - Visual Studio Code
+2025-10-27 11:29:54,750 - __main__ - INFO - Window changed: hello - Brave
+2025-10-27 11:30:09,795 - __main__ - INFO - Window changed: Task Switching
+2025-10-27 11:30:14,815 - __main__ - INFO - Window changed: m.html - koko - Visual Studio Code
+2025-10-27 11:30:19,831 - __main__ - INFO - Window changed: window_detector.py - koko - Visual Studio Code
+2025-10-27 11:30:44,911 - __main__ - INFO - Window changed: New Tab - Brave
+2025-10-27 11:30:59,960 - __main__ - INFO - Window changed: take - Google Search - Brave
+2025-10-27 11:31:04,981 - __main__ - INFO - Window changed: takeuforward - Best Coding Tutorials for Free - Brave
+2025-10-27 11:31:20,018 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave
+2025-10-27 11:33:00,934 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_113300.jpg
+2025-10-27 11:33:01,721 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:33:01,721 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:33:06,734 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave
+2025-10-27 11:33:37,426 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_113337.jpg
+2025-10-27 11:33:38,177 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:33:38,177 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:33:43,203 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave
+2025-10-27 11:34:13,879 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_113413.jpg
+2025-10-27 11:34:14,661 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:34:14,662 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:34:19,687 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave
+2025-10-27 11:34:50,348 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_113450.jpg
+2025-10-27 11:34:51,096 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:34:51,096 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:34:56,106 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave
+2025-10-27 11:35:26,753 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_113526.jpg
+2025-10-27 11:35:27,531 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:35:27,531 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:35:32,557 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave
+2025-10-27 11:36:03,222 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_113603.jpg
+2025-10-27 11:36:03,969 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:36:03,969 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:36:08,984 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave
+2025-10-27 11:36:39,779 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_113639.jpg
+2025-10-27 11:36:40,680 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:36:40,680 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:36:45,687 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave
+2025-10-27 11:37:16,362 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_113716.jpg
+2025-10-27 11:37:17,110 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:37:17,115 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:37:22,140 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave
+2025-10-27 11:37:52,846 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251027_113752.jpg
+2025-10-27 11:37:53,630 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-27 11:37:53,630 - __main__ - INFO - Window changed: Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs - Brave | 0 keys, 0 clicks, 0px moved
+2025-10-27 11:37:58,639 - __main__ - INFO - Window changed: idle_photo_20251027_113716.jpg - koko - Visual Studio Code
+2025-10-27 11:38:03,647 - __main__ - INFO - Window changed: idle_photo_20251027_113639.jpg - koko - Visual Studio Code
+2025-10-27 11:38:08,666 - __main__ - INFO - Window changed: idle_photo_20251027_113450.jpg - koko - Visual Studio Code
+2025-10-27 11:38:13,690 - __main__ - INFO - Window changed: idle_photo_20251027_113300.jpg - koko - Visual Studio Code
+2025-10-27 11:38:18,707 - __main__ - INFO - Window changed: idle_photo_20251027_112833.jpg - koko - Visual Studio Code
+2025-10-27 11:38:23,729 - __main__ - INFO - Window changed: idle_photo_20251027_113413.jpg - koko - Visual Studio Code
+2025-10-27 11:38:28,740 - __main__ - INFO - Window changed: idle_photo_20251027_113639.jpg - koko - Visual Studio Code
+2025-10-27 11:38:53,803 - __main__ - INFO - Window changed: idle_photo_20251027_113603.jpg - koko - Visual Studio Code
+2025-10-27 11:38:58,813 - __main__ - INFO - Window changed: idle_photo_20251027_113526.jpg - koko - Visual Studio Code
+2025-10-27 11:38:58,857 - __main__ - INFO - Shutdown signal received.
+2025-10-27 11:39:03,583 - screenshot_handler - INFO - Screenshot handler stopped.
+2025-10-27 11:39:03,583 - presence_detector - INFO - Presence detector stopped.
+2025-10-27 11:39:03,865 - reporter - INFO - Report generated: ./reports\daily_summary_2025-10-27.txt
+2025-10-27 11:39:03,865 - __main__ - INFO - Employee Monitor stopped.
+2025-10-28 16:26:05,235 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-10-28 16:26:05,235 - presence_detector - INFO - Presence detector started.
+2025-10-28 16:26:05,236 - __main__ - INFO - Employee Monitor started.
+2025-10-28 16:26:05,236 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-28 16:26:35,317 - __main__ - INFO - Window changed: 127.0.0.1:5000/login - Brave
+2025-10-28 16:26:40,336 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-28 16:27:15,426 - __main__ - INFO - Window changed: Employees - Brave
+2025-10-28 16:27:20,433 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-28 16:27:25,549 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251028_162725.png
+2025-10-28 16:27:25,554 - __main__ - INFO - Random scheduled screenshot captured.
+2025-10-28 16:28:05,676 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-28 16:28:25,732 - __main__ - INFO - Window changed: screenshot_20251027_104747.png - koko - Cursor
+2025-10-28 16:28:30,739 - __main__ - INFO - Window changed: screenshot_20251028_162725.png - koko - Cursor
+2025-10-28 16:28:50,893 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251028_162850.png
+2025-10-28 16:28:50,896 - __main__ - INFO - Random scheduled screenshot captured.
+2025-10-28 16:28:55,906 - __main__ - INFO - Window changed: screenshot_20251028_162850.png - koko - Cursor
+2025-10-28 16:30:06,792 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251028_163006.jpg
+2025-10-28 16:30:07,540 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-28 16:30:07,540 - __main__ - INFO - Window changed: screenshot_20251028_162850.png - koko - Cursor | 0 keys, 0 clicks, 0px moved
+2025-10-28 16:30:12,552 - __main__ - INFO - Window changed: screenshot_20251028_162850.png - koko - Cursor
+2025-10-28 16:30:42,677 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-28 16:30:42,760 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251028_163042.png
+2025-10-28 16:30:42,766 - __main__ - INFO - Random scheduled screenshot captured.
+2025-10-28 16:30:47,780 - __main__ - INFO - Window changed: screenshot_20251028_162850.png - koko - Cursor
+2025-10-28 16:30:52,788 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-28 16:30:57,816 - __main__ - INFO - Window changed: screenshot_20251028_163042.png - koko - Cursor
+2025-10-28 16:31:02,829 - __main__ - INFO - Window changed: New Tab - Brave
+2025-10-28 16:31:07,851 - __main__ - INFO - Window changed: YouTube - Brave
+2025-10-28 16:31:08,008 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251028_163107.png
+2025-10-28 16:31:13,031 - __main__ - INFO - Window changed: screenshot_20251028_163042.png - koko - Cursor
+2025-10-28 16:31:23,067 - __main__ - INFO - Window changed: YouTube - Brave
+2025-10-28 16:31:23,215 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251028_163123.png
+2025-10-28 16:31:28,234 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-10-28 16:31:43,292 - __main__ - INFO - Window changed: screenshot_20251028_163107.png - koko - Cursor
+2025-10-28 16:31:48,315 - __main__ - INFO - Window changed: screenshot_20251028_163123.png - koko - Cursor
+2025-10-28 16:31:58,362 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-28 16:32:38,643 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251028_163238.png
+2025-10-28 16:32:38,652 - __main__ - INFO - Random scheduled screenshot captured.
+2025-10-28 16:32:48,683 - __main__ - INFO - Window changed: screenshot_20251028_163238.png - koko - Cursor
+2025-10-28 16:34:14,725 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251028_163414.jpg
+2025-10-28 16:34:15,428 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-28 16:34:15,428 - __main__ - INFO - Window changed: screenshot_20251028_163238.png - koko - Cursor | 0 keys, 0 clicks, 0px moved
+2025-10-28 16:34:20,444 - __main__ - INFO - Window changed: screenshot_20251028_163238.png - koko - Cursor
+2025-10-28 16:34:51,265 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251028_163451.jpg
+2025-10-28 16:34:52,016 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-28 16:34:52,016 - __main__ - INFO - Window changed: screenshot_20251028_163238.png - koko - Cursor | 0 keys, 0 clicks, 0px moved
+2025-10-28 16:34:57,036 - __main__ - INFO - Window changed: screenshot_20251028_163238.png - koko - Cursor
+2025-10-28 16:35:27,821 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251028_163527.jpg
+2025-10-28 16:35:28,539 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-28 16:35:28,539 - __main__ - INFO - Window changed: screenshot_20251028_163238.png - koko - Cursor | 0 keys, 0 clicks, 0px moved
+2025-10-28 16:35:33,551 - __main__ - INFO - Window changed: screenshot_20251028_163238.png - koko - Cursor
+2025-10-28 16:36:04,366 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251028_163604.jpg
+2025-10-28 16:36:05,098 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-28 16:36:05,098 - __main__ - INFO - Window changed: screenshot_20251028_163238.png - koko - Cursor | 0 keys, 0 clicks, 0px moved
+2025-10-28 16:36:10,107 - __main__ - INFO - Window changed: screenshot_20251028_163238.png - koko - Cursor
+2025-10-28 16:36:40,844 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251028_163640.jpg
+2025-10-28 16:36:41,586 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-28 16:36:41,586 - __main__ - INFO - Window changed: screenshot_20251028_163238.png - koko - Cursor | 0 keys, 0 clicks, 0px moved
+2025-10-28 16:36:46,608 - __main__ - INFO - Window changed: screenshot_20251028_163238.png - koko - Cursor
+2025-10-28 16:37:17,451 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251028_163717.jpg
+2025-10-28 16:37:18,171 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-28 16:37:18,171 - __main__ - INFO - Window changed: screenshot_20251028_163238.png - koko - Cursor | 0 keys, 0 clicks, 0px moved
+2025-10-28 16:37:23,200 - __main__ - INFO - Window changed: screenshot_20251028_163238.png - koko - Cursor
+2025-10-28 16:37:54,052 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251028_163754.jpg
+2025-10-28 16:37:54,773 - __main__ - INFO - Idle webcam photo triggered.
+2025-10-28 16:37:54,773 - __main__ - INFO - Window changed: screenshot_20251028_163238.png - koko - Cursor | 0 keys, 0 clicks, 0px moved
+2025-10-28 16:37:59,781 - __main__ - INFO - Window changed: screenshot_20251028_163238.png - koko - Cursor
+2025-10-28 16:38:09,819 - __main__ - INFO - Window changed: YouTube - Brave
+2025-10-28 16:38:09,973 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251028_163809.png
+2025-10-28 16:38:20,042 - __main__ - INFO - Window changed: screenshot_20251028_163238.png - koko - Cursor
+2025-10-28 16:38:25,061 - __main__ - INFO - Window changed: app.py - koko - Cursor
+2025-10-28 16:38:35,108 - __main__ - INFO - Window changed: idle_photo_20251028_163754.jpg - koko - Cursor
+2025-11-11 17:10:40,922 - __main__ - INFO - Shutdown signal received.
+2025-11-11 17:10:40,931 - screenshot_handler - INFO - Screenshot handler stopped.
+2025-11-11 17:10:40,931 - presence_detector - INFO - Presence detector stopped.
+2025-11-11 17:10:40,981 - reporter - INFO - Report generated: ./reports\daily_summary_2025-11-11.txt
+2025-11-11 17:10:40,981 - __main__ - INFO - Employee Monitor stopped.
+2025-11-11 17:51:22,698 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2025-11-11 17:51:22,698 - presence_detector - INFO - Presence detector started.
+2025-11-11 17:51:22,699 - __main__ - INFO - Employee Monitor started.
+2025-11-11 17:51:22,700 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-11-11 17:51:32,731 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-11-11 17:51:57,847 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2025-11-11 17:52:17,910 - __main__ - INFO - Window changed: idle_photo_20251027_111240.jpg - koko - Visual Studio Code
+2025-11-11 17:52:22,941 - __main__ - INFO - Window changed: idle_photo_20251027_112303.jpg - koko - Visual Studio Code
+2025-11-11 17:52:48,066 - __main__ - INFO - Window changed: YouTube - Brave
+2025-11-11 17:52:48,622 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251111_175248.png
+2025-11-11 17:52:53,661 - __main__ - INFO - Window changed: idle_photo_20251027_112303.jpg - koko - Visual Studio Code
+2025-11-11 17:52:58,672 - __main__ - INFO - Window changed: screenshot_20251111_175248.png - koko - Visual Studio Code
+2025-11-11 17:53:08,725 - __main__ - INFO - Window changed: Task Switching
+2025-11-11 17:53:13,748 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-11-11 17:54:59,306 - __main__ - INFO - Window changed: YouTube - Brave
+2025-11-11 17:54:59,699 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20251111_175459.png
+2025-11-11 17:55:09,776 - __main__ - INFO - Window changed: screenshot_20251111_175459.png - koko - Visual Studio Code
+2025-11-11 17:55:14,797 - __main__ - INFO - Window changed: screenshot_20251111_175248.png - koko - Visual Studio Code
+2025-11-11 17:55:19,814 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-11-11 17:56:30,211 - __main__ - INFO - Window changed: Employees - Brave
+2025-11-11 17:56:40,258 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-11-11 17:57:15,432 - __main__ - INFO - Window changed: Employees - Brave
+2025-11-11 17:57:20,458 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-11-11 17:57:32,797 - presence_detector - WARNING - Webcam not available.
+2025-11-11 18:01:29,087 - __main__ - INFO - Window changed: Unknown Window
+2025-11-11 18:01:39,116 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2025-11-11 18:02:09,230 - __main__ - INFO - Window changed: Sent Mail - vermaraj01110@gmail.com - Gmail - Brave
+2025-11-11 18:02:14,262 - __main__ - INFO - Window changed: Documents - File Explorer
+2025-11-11 18:02:24,302 - __main__ - INFO - Window changed: mail.google.com wants to open
+2025-11-11 18:02:39,371 - __main__ - INFO - Window changed: Sent Mail - vermaraj01110@gmail.com - Gmail - Brave
+2025-11-11 18:03:40,346 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251111_180340.jpg
+2025-11-11 18:03:41,089 - __main__ - INFO - Idle webcam photo triggered.
+2025-11-11 18:03:41,091 - __main__ - INFO - Window changed: Sent Mail - vermaraj01110@gmail.com - Gmail - Brave | 0 keys, 0 clicks, 0px moved
+2025-11-11 18:03:46,106 - __main__ - INFO - Window changed: Sent Mail - vermaraj01110@gmail.com - Gmail - Brave
+2025-11-11 18:04:17,137 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251111_180417.jpg
+2025-11-11 18:04:17,866 - __main__ - INFO - Idle webcam photo triggered.
+2025-11-11 18:04:17,867 - __main__ - INFO - Window changed: Sent Mail - vermaraj01110@gmail.com - Gmail - Brave | 0 keys, 0 clicks, 0px moved
+2025-11-11 18:04:22,885 - __main__ - INFO - Window changed: Sent Mail - vermaraj01110@gmail.com - Gmail - Brave
+2025-11-11 18:04:53,691 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251111_180453.jpg
+2025-11-11 18:04:54,468 - __main__ - INFO - Idle webcam photo triggered.
+2025-11-11 18:04:54,468 - __main__ - INFO - Window changed: Sent Mail - vermaraj01110@gmail.com - Gmail - Brave | 0 keys, 0 clicks, 0px moved
+2025-11-11 18:04:59,475 - __main__ - INFO - Window changed: Sent Mail - vermaraj01110@gmail.com - Gmail - Brave
+2025-11-11 18:07:40,926 - idle_photo_handler - INFO - Idle webcam photo saved: ./idle_photos\idle_photo_20251111_180740.jpg
+2025-11-11 18:07:41,700 - __main__ - INFO - Idle webcam photo triggered.
+2025-11-11 18:07:41,701 - __main__ - INFO - Window changed: Sent Mail - vermaraj01110@gmail.com - Gmail - Brave | 0 keys, 0 clicks, 0px moved
+2025-11-11 18:07:46,725 - __main__ - INFO - Window changed: Sent Mail - vermaraj01110@gmail.com - Gmail - Brave
+2025-11-11 18:08:21,879 - __main__ - INFO - Window changed: New Tab - Brave
+2025-11-11 18:08:26,893 - __main__ - INFO - Window changed: explorer.exe
+2025-11-11 18:08:31,910 - __main__ - INFO - Window changed: Lenovo Vantage
+2025-11-11 18:09:42,232 - __main__ - INFO - Window changed: screenshot_20251111_175248.png - koko - Visual Studio Code
+2025-11-11 18:09:47,241 - __main__ - INFO - Window changed: idle_photo_20251027_111240.jpg - koko - Visual Studio Code
+2025-11-11 18:09:58,813 - __main__ - INFO - Shutdown signal received.
+2026-01-05 13:06:30,178 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2026-01-05 13:06:30,178 - presence_detector - INFO - Presence detector started.
+2026-01-05 13:06:30,178 - __main__ - INFO - Employee Monitor started.
+2026-01-05 13:06:30,184 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2026-01-05 13:06:58,826 - __main__ - INFO - Shutdown signal received.
+2026-01-05 13:07:00,200 - screenshot_handler - INFO - Screenshot handler stopped.
+2026-01-05 13:07:00,200 - presence_detector - INFO - Presence detector stopped.
+2026-01-05 13:07:00,363 - reporter - INFO - Report generated: ./reports\daily_summary_2026-01-05.txt
+2026-01-05 13:07:00,363 - __main__ - INFO - Employee Monitor stopped.
+2026-01-05 13:07:22,135 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2026-01-05 13:07:22,136 - presence_detector - INFO - Presence detector started.
+2026-01-05 13:07:22,137 - __main__ - INFO - Employee Monitor started.
+2026-01-05 13:07:22,137 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2026-01-05 13:08:12,251 - __main__ - INFO - Window changed: app.py - koko - Visual Studio Code
+2026-01-05 13:08:41,933 - __main__ - INFO - Shutdown signal received.
+2026-01-05 13:08:42,764 - screenshot_handler - INFO - Screenshot handler stopped.
+2026-01-05 13:08:42,764 - presence_detector - INFO - Presence detector stopped.
+2026-01-05 13:08:42,810 - reporter - INFO - Report generated: ./reports\daily_summary_2026-01-05.txt
+2026-01-05 13:08:42,811 - __main__ - INFO - Employee Monitor stopped.
+2026-01-05 13:10:05,615 - screenshot_handler - INFO - Screenshot handler ready (on-change mode).
+2026-01-05 13:10:05,615 - presence_detector - INFO - Presence detector started.
+2026-01-05 13:10:05,615 - __main__ - INFO - Employee Monitor started.
+2026-01-05 13:10:05,615 - __main__ - INFO - Window changed: employee_monitor.py - koko - Visual Studio Code
+2026-01-05 13:10:10,635 - __main__ - INFO - Window changed: Models Similar to OSS-120B - Brave
+2026-01-05 13:10:15,650 - __main__ - INFO - Window changed: Employee Monitoring Dashboard - Brave
+2026-01-05 13:10:25,668 - __main__ - INFO - Window changed: screenshot_20251111_175459.png - koko - Visual Studio Code
+2026-01-05 13:10:35,698 - __main__ - INFO - Window changed: (46) Teach LLM Something New 💡 LoRA Fine Tuning on Custom Data - YouTube - Brave
+2026-01-05 13:10:36,039 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20260105_131035.png
+2026-01-05 13:10:41,055 - __main__ - INFO - Window changed: (46) Fine-Tune GPT-OSS-20B on Your Own Dataset Locally: Step-by-Step Tutorial - YouTube - Brave
+2026-01-05 13:10:41,170 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20260105_131041.png
+2026-01-05 13:10:46,186 - __main__ - INFO - Window changed: screenshot_20251111_175459.png - koko - Visual Studio Code
+2026-01-05 13:10:51,200 - __main__ - INFO - Window changed: screenshot_20260105_131041.png - koko - Visual Studio Code
+2026-01-05 13:10:56,213 - __main__ - INFO - Window changed: screenshot_20260105_131035.png - koko - Visual Studio Code
+2026-01-05 13:11:06,237 - __main__ - INFO - Window changed: idle_photo_20251111_180453.jpg - koko - Visual Studio Code
+2026-01-05 13:11:11,254 - __main__ - INFO - Window changed: idle_photo_20251111_180740.jpg - koko - Visual Studio Code
+2026-01-05 13:12:06,464 - __main__ - INFO - Window changed: idle_photo_20251028_163414.jpg - koko - Visual Studio Code
+2026-01-05 13:12:16,479 - __main__ - INFO - Window changed: idle_photo_20251027_113639.jpg - koko - Visual Studio Code
+2026-01-05 13:12:21,493 - __main__ - INFO - Window changed: idle_photo_20251027_112833.jpg - koko - Visual Studio Code
+2026-01-05 13:12:51,613 - __main__ - INFO - Window changed: (46) how to fine tune oss20b model - YouTube - Brave
+2026-01-05 13:12:51,736 - screenshot_handler - INFO - Screenshot saved on window change: ./screenshots\screenshot_20260105_131251.png
+2026-01-05 13:13:01,771 - __main__ - INFO - Window changed: idle_photo_20251027_112833.jpg - koko - Visual Studio Code

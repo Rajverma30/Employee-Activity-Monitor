@@ -1,0 +1,15 @@
+Daily Summary Report - 2025-10-27
+========================
+
+Active Time: 1104.85 minutes
+Idle Time: 22.71 minutes
+Total Screenshots: 1
+Idle Webcam Photos: 0
+Keys Pressed: 189
+Mouse Distance: 386934.38 px
+Clicks: 147
+
+Top 3 Applications:
+- Code.exe: 22.87 minutes
+- brave.exe: 10.71 minutes
+- explorer.exe: 0.33 minutes

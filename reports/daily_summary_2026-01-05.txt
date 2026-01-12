@@ -1,0 +1,13 @@
+Daily Summary Report - 2026-01-05
+========================
+
+Active Time: 983.5 minutes
+Idle Time: 0.0 minutes
+Total Screenshots: 0
+Idle Webcam Photos: 0
+Keys Pressed: 47
+Mouse Distance: 15425.3 px
+Clicks: 11
+
+Top 3 Applications:
+- Code.exe: 2.21 minutes

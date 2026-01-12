@@ -1,0 +1,4 @@
+{
+  "screenshot_interval_seconds": 3600,
+  "screenshot_jitter_seconds": 10
+}
